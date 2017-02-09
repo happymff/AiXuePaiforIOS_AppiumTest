@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+    <test name="Test">
+        <classes>
+            <!--
+            <parameters>
+                <parameter name="username" value="爱学派D"/>
+                <parameter name="pwd" value="a11111"/>
+            </parameters>
+           -->
+            <class name="AiXuepai.LoginTest"/>
+            <class name="AiXuepai.SelectClassTest"/>
+            <class name="AiXuepai.BaiBanAdd_ManageTest"/>
+            <class name="AiXuepai.BaiBanRecordingCicleTest"/>
+            <class name="AiXuepai.BaiBanRecordingEllipseTest"/>
+            <class name="AiXuepai.BaiBanRecordingHexagonTest"/>
+            <class name="AiXuepai.BaiBanRecordingHexagonUploadTest"/>
+            <class name="AiXuepai.BaiBanRecordingLineTest"/>
+            <class name="AiXuepai.BaiBanRecordingRectangleTest"/>
+            <class name="AiXuepai.BaiBanRecordingTest"/>
+            <class name="AiXuepai.BaiBanRecordingTriangleTest"/>
+        </classes>
+    </test>
+</suite>
