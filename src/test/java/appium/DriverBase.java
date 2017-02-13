@@ -28,15 +28,15 @@ public class DriverBase {
         // set up appium
         File classpathRoot = new File(System.getProperty("user.dir"));
         File appDir = new File(classpathRoot, "src/test/resource/apps/");
-        File app = new File(appDir, "jiangjiu.apk");
+        File app = new File(appDir, "ContactManager.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "7a03de26");
-        capabilities.setCapability("platformVersion", "5.1.1");
+        capabilities.setCapability("deviceName", "192.168.56.101:5555");
+        capabilities.setCapability("platformVersion", "5.1");
         //if no need install don't add this
-       //capabilities.setCapability("app", app.getAbsolutePath());
-        //capabilities.setCapability("appPackage", "jaingjiu.apk");
+        capabilities.setCapability("app", app.getAbsolutePath());
+        //capabilities.setCapability("appPackage", "com.example.android.contactmanager");
         //support Chinese
         capabilities.setCapability("unicodeKeyboard", "True");
         capabilities.setCapability("resetKeyboard", "True");
