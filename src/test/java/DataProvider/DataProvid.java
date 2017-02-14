@@ -19,4 +19,10 @@ public class DataProvid {
                 new Object[] { "爱学派D", "a11111" }
         };
     }
+    @DataProvider(name = "StudentLogin")
+    public static Object[][] studentloginsucess() {
+        return new Object[][] {
+                new Object[] { "AXPC11@ett.com", "a11111" }
+        };
+    }
 }

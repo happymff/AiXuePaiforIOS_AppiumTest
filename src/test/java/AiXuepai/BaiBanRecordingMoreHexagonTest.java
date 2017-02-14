@@ -57,7 +57,7 @@ public class BaiBanRecordingMoreHexagonTest {
         selectClass =new SelectClass(driver);
         selectClass.selectClass();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        for (int j = 0; j<10; j++) {
+        for (int j = 0; j<100; j++) {
             baiban = new GoIntoBaiban(driver);
         baiban.goIntoBaiBan();
             if(j!=0){

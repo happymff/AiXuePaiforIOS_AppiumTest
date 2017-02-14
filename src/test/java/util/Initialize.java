@@ -12,8 +12,8 @@ public class Initialize {
 
     String platformName = "ANDROID";
     String apkname = "app-aixuepai.apk";
-    String devicename = "7LBEAMG699999999";
-    String platormVersion = "5.0.1";
+    String devicename = "192.168.56.101:5555";
+    String platormVersion = "5.1";
     Boolean install = false;
 
     public DesiredCapabilities driverInitialize() throws Exception {
@@ -36,10 +36,10 @@ public class Initialize {
         capabilities.setCapability("unicodeKeyboard", "True");
         capabilities.setCapability("resetKeyboard", "True");
 
-        if (install == true) {
+       // if (install == true) {
             capabilities.setCapability("app", app.getAbsolutePath());
-            capabilities.setCapability("appPackage", apkname);
-        }
+            capabilities.setCapability("appPackage", "com.etiantian.pclass");
+      // }
         return capabilities;
     }
 }

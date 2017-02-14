@@ -34,10 +34,10 @@ public class Initialize1 {
         capabilities.setCapability("unicodeKeyboard", "True");
         capabilities.setCapability("resetKeyboard", "True");
 
-        if (install == true) {
+       // if (install == true) {
             capabilities.setCapability("app", app.getAbsolutePath());
-            capabilities.setCapability("appPackage", apkname);
-        }
+            capabilities.setCapability("appPackage", "com.etiantian.pclass");
+      //  }
         return capabilities;
     }
 }

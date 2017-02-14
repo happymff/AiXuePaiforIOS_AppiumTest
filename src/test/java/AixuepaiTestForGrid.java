@@ -26,11 +26,13 @@ public class AixuepaiTestForGrid {
     String devicename="7LBEAMG699999999";
     String udid = "7LBEAMG699999999";
     String platormVersion="5.0.1";
-    String devicename2="SSGMAYLZ9TT869UG";
-    String udid2 = "SSGMAYLZ9TT869UG";
+    String devicename2="192.168.56.101:5555";
+    String platormVersion2="5.1";
+    String udid2 = "192.168.56.101:5555";
 
     @BeforeMethod
     public void setUp() throws Exception {
+
         File classpathRoot = new File(System.getProperty("user.dir"));
         File appDir = new File(classpathRoot, "src/test/resource/apps/");
         File app = new File(appDir,apkname);
@@ -39,13 +41,13 @@ public class AixuepaiTestForGrid {
         capabilities.setCapability("platformName",platformName);
         capabilities.setCapability("deviceName", devicename);
         capabilities.setCapability("platformVersion",platormVersion);
-        //capabilities.setCapability("udid",udid);
+        capabilities.setCapability("udid",udid);
         //support Chinese
         capabilities.setCapability("unicodeKeyboard", "True");
         capabilities.setCapability("resetKeyboard", "True");
         capabilities.setCapability("app", app.getAbsolutePath());
         capabilities.setCapability("appPackage", "com.etiantian.pclass");
-        capabilities.setCapability("appActivity", "com.etiantian.pclass.page.activities.LoadingActivity");
+        //capabilities.setCapability("appActivity", "com.etiantian.pclass.page.activities.LoadingActivity");
         // initializing driver object
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 // initializing explicit wait object
@@ -60,8 +62,8 @@ public class AixuepaiTestForGrid {
         capabilities2.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities2.setCapability("platformName",platformName);
         capabilities2.setCapability("deviceName", devicename2);
-        capabilities2.setCapability("platformVersion",platormVersion);
-        capabilities.setCapability("udid",udid2);
+        capabilities2.setCapability("platformVersion",platormVersion2);
+        capabilities2.setCapability("udid",udid2);
         //support Chinese
         capabilities2.setCapability("unicodeKeyboard", "True");
         capabilities2.setCapability("resetKeyboard", "True");
@@ -86,9 +88,8 @@ public class AixuepaiTestForGrid {
         System.out.println(width);
         System.out.println(height);
 
-        for (int i = 0; i < 3; i++) {
-            // perform Drag and Drop
-            Thread.sleep(3000);
+        for (int j = 0; j < 3; j++) {
+            Thread.sleep(2000);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             TouchAction dragNDrop = new TouchAction(driver);
             dragNDrop.longPress(width * 14 / 15, height / 2).moveTo(width / 15, height / 2).release().perform();
@@ -110,6 +111,20 @@ public class AixuepaiTestForGrid {
         String selectClass = driver.findElement(By.className("android.widget.TextView")).getText();
         Assert.assertEquals("选择班级", selectClass);
 
+        driver2.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+        int width2 = driver2.manage().window().getSize().width;
+        int height2 = driver2.manage().window().getSize().height;
+        System.out.println(width2);
+        System.out.println(height2);
+
+        for (int i = 0; i < 3; i++) {
+            // perform Drag and Drop
+            Thread.sleep(3000);
+            driver2.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            TouchAction dragNDrop2 = new TouchAction(driver2);
+            dragNDrop2.longPress(width * 14 / 15, height / 2).moveTo(width / 15, height / 2).release().perform();
+        }
 
     }
 
