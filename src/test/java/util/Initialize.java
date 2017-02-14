@@ -12,8 +12,8 @@ public class Initialize {
 
     String platformName = "ANDROID";
     String apkname = "app-aixuepai.apk";
-    String devicename = "192.168.56.101:5555";
-    String platormVersion = "5.1";
+    String devicename = "7LBEAMG699999999";
+    String platormVersion = "5.0.1";
     Boolean install = false;
 
     public DesiredCapabilities driverInitialize() throws Exception {

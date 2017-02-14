@@ -22,7 +22,7 @@ public class DataProvid {
     @DataProvider(name = "StudentLogin")
     public static Object[][] studentloginsucess() {
         return new Object[][] {
-                new Object[] { "AXPC11@ett.com", "a11111" }
+                new Object[] { "s2forff", "a11111" }
         };
     }
 }
