@@ -27,9 +27,8 @@ public class TeacherSelectClassTest {
     SelectClassMode selectClassMode;
     @BeforeMethod
     public  void setUp() throws  Exception {
-       initialize = new InitializeDriver("192.168.56.101:5555","5.1");
+        initialize = new InitializeDriver("192.168.56.101:5555","5.1");
         // initializing driver object
-       // DesiredCapabilities caps =initialize.driverInitialize();
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize());
 // initializing explicit wait object
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -40,8 +39,8 @@ public class TeacherSelectClassTest {
         loginPage = new LoginPage(username,pwd,driver);
         Thread.sleep(2000);
         loginPage.loginSuccess();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        Thread.sleep(3000);
+        //driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        //Thread.sleep(3000);
         switchLoginPageYindaoImage = new SwitchLoginPageYindaoImage(driver);
         switchLoginPageYindaoImage.switchYindaoImage();
         selectClassMode =new SelectClassMode(driver);
@@ -49,7 +48,7 @@ public class TeacherSelectClassTest {
         selectClassMode.selectClassMode("shangke");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         Assert.assertEquals("在线学生",driver.findElement(By.id("com.etiantian.pclass:id/lfsc_txt_title")).getText());
-    }
+       }
 
     @AfterMethod
     public void tearDown(){

@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.LoginPage;
 import page.LoginPageForStudent;
-import util.Initialize;
+import util.Initialize1;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class LoginTest1 {
     AndroidDriver driver;
-    Initialize initialize= new Initialize();
+    Initialize1 initialize= new Initialize1();
     LoginPageForStudent loginPage;
     @BeforeMethod
     public  void setUp() throws  Exception {

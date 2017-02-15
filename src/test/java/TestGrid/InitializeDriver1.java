@@ -6,14 +6,14 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
 
 
-public class InitializeDriver {
+public class InitializeDriver1 {
 
     String platformName = "ANDROID";
     String apkname = "app-aixuepai.apk";
     String devicename;
     String platormVersion;
 
-    public InitializeDriver(String devicename, String platormVersion){
+    public InitializeDriver1(String devicename, String platormVersion){
         this.devicename = devicename;
         this.platormVersion = platormVersion;
 
