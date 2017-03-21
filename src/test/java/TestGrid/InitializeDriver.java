@@ -27,8 +27,8 @@ public class InitializeDriver {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         //设置每次运行不重新启动被测试app
-        ////capabilities.setCapability("noReset","true");
-        //capabilities.setCapability("fullReset","false");
+        capabilities.setCapability("noReset","true");
+        capabilities.setCapability("fullReset","false");
 
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability("platformName", platformName);

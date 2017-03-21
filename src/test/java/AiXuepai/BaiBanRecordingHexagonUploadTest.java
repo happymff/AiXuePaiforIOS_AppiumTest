@@ -81,7 +81,7 @@ public class BaiBanRecordingHexagonUploadTest {
         fileFolder.goIntoFileFolder();
         upload = new Upload(driver);
         upload.upload();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         Assert.assertEquals("已上传",driver.findElement(By.id("com.etiantian.pclass:id/view_uploaded")).getText());
         fileFolder.returnFileFolder();
     }

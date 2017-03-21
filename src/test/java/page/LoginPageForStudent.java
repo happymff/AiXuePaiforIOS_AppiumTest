@@ -19,7 +19,7 @@ public class LoginPageForStudent {
         this.pwd = pwd;
         this.driver = driver;
     }
-    public void studentLogin(){
+    public void studentLogin() throws InterruptedException {
         int width = driver.manage().window().getSize().width;
         int height = driver.manage().window().getSize().height;
 
@@ -27,6 +27,7 @@ public class LoginPageForStudent {
             // perform Drag and Drop
             TouchAction dragNDrop = new TouchAction(driver);
             dragNDrop.longPress(width * 14 / 15, height / 2).moveTo(width / 15, height / 2).release().perform();
+            Thread.sleep(500);
         }
         driver.findElement(By.id("com.etiantian.pclass:id/go_bt")).click();
         WebElement ae1 = driver.findElement(By.id("com.etiantian.pclass:id/lag_ed_name"));

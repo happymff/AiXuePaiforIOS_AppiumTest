@@ -18,9 +18,10 @@ public class SelectTeacher {
         this.driver = driver;
     }
 
-    public void selectTeacher() {
+    public void selectTeacher() throws InterruptedException {
 
         driver.findElement(By.id("com.etiantian.pclass:id/ligt_btn")).click();
+        //Thread.sleep(1000);
         driver.findElement(By.id("com.etiantian.pclass:id/laf_btn_enter")).click();
 
     }
