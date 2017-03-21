@@ -1,15 +1,15 @@
 package util;
 
-import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+
 /**
  * Created by mengfeifei on 2017/1/3.
  */
 public class AlertPresent {
 
-    public boolean isAlertPresent(AndroidDriver driver) {
+    public boolean isAlertPresent(WebDriver driver) {
         try {
             driver.switchTo().alert();
             return true;
@@ -18,13 +18,25 @@ public class AlertPresent {
         }
     }
 
-    public String GetItsText(AndroidDriver driver) {
+    public String GetItsText(WebDriver driver) {
         try {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();
             return alertText;
         } catch (NoAlertPresentException e) {
             return "No Such Alert Present";
+        }
+    }
+    public void acceptAlert(WebDriver driver, Boolean accept) {
+        try {
+            Alert alert = driver.switchTo().alert();
+            if (accept==true) {
+                alert.accept();
+            }else {
+                alert.dismiss();
+            }
+        } catch (NoAlertPresentException e) {
+            System.out.println("没有Alert");
         }
     }
 }

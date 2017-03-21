@@ -25,14 +25,14 @@ public class ReadExcelJXL{
 		public  Object[][] getTestData(String filePath, String fileName,
 				String sheetName) throws IOException {
 			try {
-				String path = filePath + "\\" + fileName;
+				String path = filePath + "/" + fileName;
 				InputStream inputStream = new FileInputStream(path);
 				Workbook book = Workbook.getWorkbook(inputStream);
 				Sheet sheet = book.getSheet(sheetName);
 				int rowCount = sheet.getRows();
-				//System.out.println("����="+rowCount);
+				System.out.println("行数="+rowCount);
 				int columnCount = sheet.getRow(0).length;
-				//System.out.println("����="+columnCount);
+				System.out.println("列数="+columnCount);
 				String content[][] = new String[rowCount-1][columnCount];
 
 				for(int i=0;i<rowCount-1;i++){

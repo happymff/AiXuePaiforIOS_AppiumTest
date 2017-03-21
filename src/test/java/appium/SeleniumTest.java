@@ -6,9 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import util.AlertPresent;
+import util.IsElementPresent;
 
 import java.util.Set;
 
@@ -48,34 +51,52 @@ public class SeleniumTest {
             }
             Thread.sleep(5000);
         }
-
+        Thread.sleep(2000);
         driver.findElement(By.linkText("添加")).click();
         driver.findElement(By.id("username")).clear();
         //driver.findElement(By.id("username")).sendKeys("sizhongwangxiaokaifa");
         driver.findElement(By.id("username")).sendKeys(username);
+        Thread.sleep(2000);
         driver.findElement(By.id("pass")).clear();
         //driver.findElement(By.id("pass")).sendKeys("a11111");
         driver.findElement(By.id("pass")).sendKeys(pwd);
+        Thread.sleep(2000);
         driver.findElement(By.id("realname")).clear();
         //driver.findElement(By.id("realname")).sendKeys("四中网校开发");
         driver.findElement(By.id("realname")).sendKeys(realname);
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@value='学生']")).click();
         driver.findElement(By.id("stuno")).clear();
         //driver.findElement(By.id("stuno")).sendKeys("10000000000000001");
         driver.findElement(By.id("stuno")).sendKeys(classNum);
+        Thread.sleep(5000);
         WebElement grade = driver.findElement(By.id("sel_grade"));
+        Thread.sleep(2000);
         Select selectgrade = new Select(grade);
-        selectgrade.selectByValue("高二");
+        selectgrade.selectByValue("高一");
+        Thread.sleep(2000);
         WebElement cls = driver.findElement(By.id("sel_cls"));
+        Thread.sleep(2000);
         Select selectcls = new Select(cls);
-        selectcls.selectByValue("开发产品班");
+        selectcls.selectByValue("1274997");
+        Thread.sleep(2000);
         driver.findElement(By.linkText("添 加")).click();
         driver.findElement(By.linkText("创 建")).click();
+        AlertPresent alertPresent = new AlertPresent();
+        Boolean accept =alertPresent.isAlertPresent(driver);
+        alertPresent.acceptAlert(driver,accept);
+        Thread.sleep(3000);
+        AlertPresent alertPresent1 = new AlertPresent();
+        Boolean accept1 =alertPresent1.isAlertPresent(driver);
+        alertPresent.acceptAlert(driver,accept1);
         Thread.sleep(5000);
+        IsElementPresent isElementPresent = new IsElementPresent();
+        Boolean isEl = isElementPresent.isElementPresent(By.linkText("禁 用"),driver);
+        Assert.assertTrue(isEl);
     }
 
     @AfterMethod
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }
 }

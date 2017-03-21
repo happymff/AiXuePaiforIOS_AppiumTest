@@ -29,7 +29,7 @@ public class ReadExcelPOI {
 		public static Object[][] getTestData(String filePath, String fileName,
 				String sheetName) throws IOException {
 
-			File file = new File(filePath + "\\" + fileName);
+			File file = new File(filePath + "/" + fileName);
 			FileInputStream inputStream = new FileInputStream(file);
 			Workbook Workbook = null;
 			String fileExtensionName = fileName.substring(fileName.indexOf("."));
