@@ -18,7 +18,7 @@ public class DataProvid {
     @DataProvider(name = "SeleniumTest")
     public static Object[][] getData() throws IOException {
         ReadExcelJXL readExcelJXL = new ReadExcelJXL();
-        return readExcelJXL.getTestData("/Users/mengfeifei/Desktop/workspace", "TestData.xls", "data");
+        return readExcelJXL.getTestData("/Users/mff/Desktop/workspace", "TestData.xls", "data");
     }
     @DataProvider(name = "LoginSucess")
     public static Object[][] loginsucess() {

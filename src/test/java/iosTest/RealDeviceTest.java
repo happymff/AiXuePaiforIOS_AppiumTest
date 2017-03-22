@@ -15,14 +15,16 @@ import java.util.concurrent.TimeUnit;
 public class RealDeviceTest {
     IOSDriver driver;
     iosTest.InitializeDriverRealDevice initialize;
-    @BeforeMethod
-    public  void setUp() throws  Exception {
 
-       initialize = new iosTest.InitializeDriverRealDevice();
+    @BeforeMethod
+    public void setUp() throws Exception {
+
+        initialize = new iosTest.InitializeDriverRealDevice();
         // initializing driver object
         driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize());
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     @Test
     public void loginTest() throws Exception {
         driver.findElement(By.xpath("//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]")).sendKeys("AppiumBook");
@@ -30,7 +32,7 @@ public class RealDeviceTest {
     }
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 }
