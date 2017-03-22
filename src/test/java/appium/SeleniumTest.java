@@ -52,7 +52,7 @@ public class SeleniumTest {
             Thread.sleep(3000);
         }
         Thread.sleep(2000);
-        for (int i = 70; i < 100; i++) {
+        for (int i = 0; i < 4; i++) {
             driver.findElement(By.linkText("添加")).click();
             driver.findElement(By.id("username")).clear();
             driver.findElement(By.id("username")).sendKeys("chanpinkaifa" + i);
