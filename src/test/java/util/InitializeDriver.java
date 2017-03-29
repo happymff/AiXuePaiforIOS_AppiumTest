@@ -11,7 +11,6 @@ public class InitializeDriver {
     public DesiredCapabilities driverInitialize(String platv, String devName, String udid) throws Exception {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platform", "iOS");
-
         caps.setCapability("platformVersion", platv);
         //caps.setCapability("platformVersion", "10.1");
         caps.setCapability("deviceName", devName);
