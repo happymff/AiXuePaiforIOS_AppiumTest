@@ -15,65 +15,64 @@ import java.util.concurrent.TimeUnit;
  */
 public class TeacherLoginTest {
     IOSDriver driverios, driverios2;
-    iosTest.InitializeDriver initialize;
-    iosTest.InitializeDriver1 initialize1;
+    util.InitializeDriver initialize;
 
     @BeforeMethod
     public void setUp() throws Exception {
 
-        initialize = new iosTest.InitializeDriver();
+        initialize = new util.InitializeDriver();
         // initializing driver object
-        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-        driverios2 = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), initialize.driverInitialize("9.3.3", "iPad mini2", "4d5a7ada1f9f8025019021777679610424440b68"));
-        driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
+        driverios2 = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3.3", "iPad mini2", "4d5a7ada1f9f8025019021777679610424440b68"));
+       // driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
     public void pushTest() throws Exception {
-        int width = driverios.manage().window().getSize().width;
-        int height = driverios.manage().window().getSize().height;
-        System.out.println(width);
-        System.out.println(height);
-        for (int i = 0; i < 3; i++) {
-            driverios.swipe(width * 6 / 7, height / 2, width * 2 / 7, 0, 1000);
-        }
-        System.out.println("滑动成功");
-
-        //点击登录按钮
-        driverios.findElement(By.className("UIAButton")).click();
-        Thread.sleep(2000);
-        System.out.println("点击立即登录按钮成功");
-
-        //输入账号和密码
-        driverios.findElement(By.className("UIATextField")).sendKeys("爱学派FF");
-        driverios.tap(1, width * 2 / 3, height * 1 / 5, 500);
-        //driverios.hideKeyboard();
-        //driverios.findElementByAccessibilityId("隐藏键盘").click();
-        driverios.findElement(By.className("UIASecureTextField")).sendKeys("a11111");
-        driverios.tap(1, width * 2 / 3, height * 1 / 5, 500);
-        //driverios.hideKeyboard();
-        //driverios.findElementByAccessibilityId("隐藏键盘").click();
-        //driverios.hideKeyboard();  //某些时候iOS并不生效 隐藏键盘调用方法
-        //driverios.findElementByAccessibilityId("记住用户信息").click();
-        //driverios.findElement(By.id("记住用户信息")).click();
-        //driverios.findElement(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")).click();
-
-        driverios.findElement(By.id("登录")).click();
-        System.out.println("登录成功");
-
-        //教师选择班级
-        driverios.findElement(By.id("高二爱学派CS二班")).click();
-        driverios.findElement(By.id("高二爱学派CS一班")).click();
-        driverios.findElement(By.id("进入课堂")).click();
-        System.out.println("进入课堂成功");
-        Thread.sleep(2000);
-        //菜单切换
-        //点击菜单按钮
-        //driverios.findElement(By.id("navbar menu default")).click();
-        driverios.findElementByAccessibilityId("navbar menu default").click();
-        Thread.sleep(3000);
-        driverios.findElementByAccessibilityId("我的课程").click();
-        driverios.findElementByAccessibilityId("navbar menu default").click();
+          int width = driverios.manage().window().getSize().width;
+          int height = driverios.manage().window().getSize().height;
+          System.out.println(width);
+          System.out.println(height);
+//        for (int i = 0; i < 3; i++) {
+//            driverios.swipe(width * 6 / 7, height / 2, width * 2 / 7, 0, 1000);
+//        }
+//        System.out.println("滑动成功");
+//
+//        //点击登录按钮
+//        driverios.findElement(By.className("UIAButton")).click();
+//        Thread.sleep(2000);
+//        System.out.println("点击立即登录按钮成功");
+//
+//        //输入账号和密码
+//        driverios.findElement(By.className("UIATextField")).sendKeys("爱学派FF");
+//        driverios.tap(1, width * 2 / 3, height * 1 / 5, 500);
+//        //driverios.hideKeyboard();
+//        //driverios.findElementByAccessibilityId("隐藏键盘").click();
+//        driverios.findElement(By.className("UIASecureTextField")).sendKeys("a11111");
+//        driverios.tap(1, width * 2 / 3, height * 1 / 5, 500);
+//        //driverios.hideKeyboard();
+//        //driverios.findElementByAccessibilityId("隐藏键盘").click();
+//        //driverios.hideKeyboard();  //某些时候iOS并不生效 隐藏键盘调用方法
+//        //driverios.findElementByAccessibilityId("记住用户信息").click();
+//        //driverios.findElement(By.id("记住用户信息")).click();
+//        //driverios.findElement(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAButton[1]")).click();
+//
+//        driverios.findElement(By.id("登录")).click();
+//        System.out.println("登录成功");
+//
+//        //教师选择班级
+//        driverios.findElement(By.id("高二爱学派CS二班")).click();
+//        driverios.findElement(By.id("高二爱学派CS一班")).click();
+//        driverios.findElement(By.id("进入课堂")).click();
+//        System.out.println("进入课堂成功");
+//        Thread.sleep(2000);
+//        //菜单切换
+//        //点击菜单按钮
+//        //driverios.findElement(By.id("navbar menu default")).click();
+//        driverios.findElementByAccessibilityId("navbar menu default").click();
+//        Thread.sleep(3000);
+//        driverios.findElementByAccessibilityId("我的课程").click();
+//        driverios.findElementByAccessibilityId("navbar menu default").click();
         //学生账号进行登录
         int width2 = driverios2.manage().window().getSize().width;
         int height2 = driverios2.manage().window().getSize().height;

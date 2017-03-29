@@ -9,6 +9,7 @@ import util.IsElementPresent;
 
 import java.net.URL;
 import java.util.Random;
+import util.InitializeDriver;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,7 +18,6 @@ import java.util.concurrent.TimeUnit;
 public class TeacherLoginTest1 {
     IOSDriver driverios, driverios2;
     InitializeDriver initialize;
-    InitializeDriver1 initialize1;
 
     @BeforeMethod
     public void setUp() throws Exception {
@@ -25,7 +25,7 @@ public class TeacherLoginTest1 {
         initialize = new InitializeDriver();
         // initializing driver object
         driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-        //driverios = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), initialize.driverInitialize("9.3.3","iPad mini2","4d5a7ada1f9f8025019021777679610424440b68"));
+       // driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3","iPad mini2","4d5a7ada1f9f8025019021777679610424440b68"));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
