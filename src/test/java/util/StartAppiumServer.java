@@ -39,7 +39,7 @@ public class StartAppiumServer {
     }
 
     public static void startAppium() throws IOException, InterruptedException {
-        System.out.println("come here");
+        System.out.println("come here for start Appium server");
         appiumStop();
         appiumStart();
     }
