@@ -42,11 +42,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wKTZ0+RXE6wQAH3Sg/Nt1zizvIs=
+		HyPKLa2sql3wcRECqBOdYjYbMpk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		rh8m0wJesYFX9r/3dyBQtoF2dVM=
+		AlnF0xiikmFrVAgEQlErxDJrCIQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		xcmUKmQU2UlEHZyYaQ0SuEUYz3Q=
+		JF5cIN1p2NF+2r+Ob3e922I3+2I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		RQ8f9qxXmw6udB9f9A6HiTJ7rRU=
+		ODz3uLmomiksVTTknB/1R7bjRhI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -66,11 +66,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		B7ej+8O9bp43l1cK6dLJyUcao7g=
+		orkJby4d/arjdO0JZ8Ww2xlh8f4=
 		</data>
 		<key>ETTSideNavigationConfig.plist</key>
 		<data>
 		mmAvUb59l+zgboz2UDlF3jIzF7U=
+		</data>
+		<key>EttDownLoadConfig.json</key>
+		<data>
+		CGZhE7Wngnp3jPYfsbgVxyLAsYs=
 		</data>
 		<key>Explanation(说明文件)</key>
 		<data>
@@ -327,13 +331,13 @@
 		<data>
 		1n72w05b5DuQ/QbZC7p+kLLasvc=
 		</data>
-		<key>aixue.png</key>
-		<data>
-		gE4hHqgEA4ler5qsGnVs/xpu9Us=
-		</data>
 		<key>aixue_class.png</key>
 		<data>
 		ssRuyV7rUicjhh8CachoT93oyRQ=
+		</data>
+		<key>aixue_logo.png</key>
+		<data>
+		5iy/7JxmCu/nYm6+kmevsVyuq+s=
 		</data>
 		<key>bg_lock.png</key>
 		<data>
@@ -441,7 +445,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		W9RWWo4IBFmXq/ga+NSuHKoh+i8=
+		YTpoM5qWINzU2LsKbzApwSASS/o=
 		</data>
 		<key>icon_down.png</key>
 		<data>
@@ -1013,22 +1017,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wKTZ0+RXE6wQAH3Sg/Nt1zizvIs=
+			HyPKLa2sql3wcRECqBOdYjYbMpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			w9V+mkZQfQ9QEagw6qhMxatMKLcBEbFn/6zJu7NrjMs=
+			jdCAhoXiTWqvw9+GM+yrTB5TOuJ2aYSlT+FKMEa7QNk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rh8m0wJesYFX9r/3dyBQtoF2dVM=
+			AlnF0xiikmFrVAgEQlErxDJrCIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			8QJuP0genOm7KrFsWzjZ/Q7KwMMprbXfomye2sUoWl4=
+			5+o/TeQ5B14IbrNVWb0ga6JX8ZfDWmBQCvkfDbnh4T4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -1046,22 +1050,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xcmUKmQU2UlEHZyYaQ0SuEUYz3Q=
+			JF5cIN1p2NF+2r+Ob3e922I3+2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			RZZDQorslAylywL6Gxtjtmgqj4SVA7tbqm73AEAcQs4=
+			N9AM4FazcHqF/gj0TAbLVbjsNaIUvyqf7Ab2gv9N5kw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RQ8f9qxXmw6udB9f9A6HiTJ7rRU=
+			ODz3uLmomiksVTTknB/1R7bjRhI=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5uFb7ZwBva+LyvDg8zmJCiyYns9LXIPZLE2ndoIHUw=
+			MS6mF89stgpTuE+ocnsRTH0q1kTeubix7btP2TCKfIc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -1079,11 +1083,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B7ej+8O9bp43l1cK6dLJyUcao7g=
+			orkJby4d/arjdO0JZ8Ww2xlh8f4=
 			</data>
 			<key>hash2</key>
 			<data>
-			X79sYNgwTyKhbAQha4zDiS/4NT6wrn05MZIlmvrYC8s=
+			ksBjymyiaLg3hSyZ6BFjDQQUHjisuvXF7D4r95z21Rk=
 			</data>
 		</dict>
 		<key>ETTSideNavigationConfig.plist</key>
@@ -1095,6 +1099,17 @@
 			<key>hash2</key>
 			<data>
 			5mIQZKQOr/G3xkw44SwvnPJseLitKche5Eu2LpYnfuY=
+			</data>
+		</dict>
+		<key>EttDownLoadConfig.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CGZhE7Wngnp3jPYfsbgVxyLAsYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			QmTz4HpxjUCI43+1uAr46KstfjgwVfVvS406EuLcTnU=
 			</data>
 		</dict>
 		<key>Explanation(说明文件)</key>
@@ -1694,17 +1709,6 @@
 			4rlDeUp3w+TiHdHh46crzs34SSsfe+LKp6GDwM9tHKA=
 			</data>
 		</dict>
-		<key>aixue.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gE4hHqgEA4ler5qsGnVs/xpu9Us=
-			</data>
-			<key>hash2</key>
-			<data>
-			P0idxMRO10vVbyE0e5Wgk1UGW6mT98zuFJw9H0U6hAc=
-			</data>
-		</dict>
 		<key>aixue_class.png</key>
 		<dict>
 			<key>hash</key>
@@ -1714,6 +1718,17 @@
 			<key>hash2</key>
 			<data>
 			ZLxUkCzgBin7RKldbe+iNYfXwCdk4j1CyQw7SrR7Wx8=
+			</data>
+		</dict>
+		<key>aixue_logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5iy/7JxmCu/nYm6+kmevsVyuq+s=
+			</data>
+			<key>hash2</key>
+			<data>
+			YCUcBQYTVvtC9B4zrT6uazbou9XB7QWTwhw09icK4wk=
 			</data>
 		</dict>
 		<key>bg_lock.png</key>
@@ -2006,11 +2021,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W9RWWo4IBFmXq/ga+NSuHKoh+i8=
+			YTpoM5qWINzU2LsKbzApwSASS/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			tM2ATtLOvPPpr7iVMaPLFmeviWgMi7HQf3swP36Zy5Q=
+			+/L8xeV22gBt9wkFx4bax3pbEnA+RMvjnfk+1UowMck=
 			</data>
 		</dict>
 		<key>icon_down.png</key>

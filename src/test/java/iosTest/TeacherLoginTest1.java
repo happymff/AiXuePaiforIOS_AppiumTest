@@ -65,6 +65,7 @@ public class TeacherLoginTest1 {
         //driverios.findElement(By.id("navbar menu default")).click();
         driverios.findElementByAccessibilityId("navbar menu default").click();
         Thread.sleep(3000);
+        //driverios.findElement(By.id("我的课程")).click();
         driverios.findElementByAccessibilityId("我的课程").click();
         driverios.findElementByAccessibilityId("navbar menu default").click();
         for (int i = 0; i < 1000; i++) {
