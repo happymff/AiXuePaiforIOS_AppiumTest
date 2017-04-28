@@ -13,6 +13,7 @@ public class StartAppiumServer {
     // Set path of your appium.js file.
     public static  String appiumJSPath = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js";
     public static  String cmd = nodePath + " " + appiumJSPath;
+    public static  String killcmd ="ps -ax|grep -i \"iproxy\"|grep -v grep|awk '{print \"kill -9 \" $1}'|sh";
     IOSDriver<WebElement> driver;
 
     // This method Is responsible for starting appium server.
@@ -31,6 +32,7 @@ public class StartAppiumServer {
 
     // This method Is responsible for stopping appium server.
     public static void appiumStop() throws IOException {
+       // p = Runtime.getRuntime().exec(killcmd);
         System.out.println(p);
         if (p != null) {
             p.destroy();
@@ -39,6 +41,7 @@ public class StartAppiumServer {
     }
 
     public static void startAppium() throws IOException, InterruptedException {
+        Runtime.getRuntime().exec(killcmd);
         System.out.println("come here for start Appium server");
         appiumStop();
         appiumStart();
