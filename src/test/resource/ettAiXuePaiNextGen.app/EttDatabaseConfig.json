@@ -1,0 +1,21 @@
+{
+  "modelData": {
+    "tableNames":
+      {
+        "userInfoTable":"userInfoTable",
+        "classstateTable":"ClassStateTable",
+        "allUserMessage":"AllUserMessageTable",
+        "teacherclassroommessage":"TeaRoomMesTable",
+        "studentChooseClassroom":"StuChooseRommTable",
+        "commandCache":"UserCommandCacheTalble"
+      },
+    "commandClear":
+      {
+          "clearType":"1",
+          "clearIdentity":"teacher"
+      },
+    "dbName": "AiXuePaiApp.sqlite",
+    "clearClassState": "clear",
+    "clearIdentity":"teacher",
+  }
+}

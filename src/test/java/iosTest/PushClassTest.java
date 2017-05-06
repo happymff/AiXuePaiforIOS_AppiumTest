@@ -23,6 +23,7 @@ public class PushClassTest {
     PushClass pushClass;
     Login login;
     SelectClass selectClass;
+
     @BeforeMethod
     public void setUp() throws Exception {
         initialize = new InitializeDriver();
@@ -40,28 +41,26 @@ public class PushClassTest {
         int height = driverios.manage().window().getSize().height;
         System.out.println("屏幕宽度：" + width);
         System.out.println("屏幕长度：" + height);
-        if(platv.startsWith("9")) {
+        if (platv.startsWith("9")) {
             ScrollPagesFor9 scrollPages = new ScrollPagesFor9();
-            for(int i = 0; i <3 ;i ++) {
-                scrollPages.scrollRightToLeft(driverios, (i+1), width, height);
+            for (int i = 0; i < 3; i++) {
+                scrollPages.scrollRightToLeft(driverios, (i + 1), width, height);
             }
-        }else if(platv.startsWith("10")){
+        } else if (platv.startsWith("10")) {
             ScrollPages scrollPages = new ScrollPages();
-            for(int i = 0; i <3 ;i ++) {
-                scrollPages.scrollRightToLeft(driverios, (i+1), width, height);
+            for (int i = 0; i < 3; i++) {
+                scrollPages.scrollRightToLeft(driverios, (i + 1), width, height);
             }
-        }else {
+        } else {
             System.out.println("版本信息错误~~~");
         }
         driverios.findElement(By.className("UIAButton")).click();
         login = new Login();
-        login.loginSucess(driverios, username,pwd);
+        login.loginSucess(driverios, username, pwd);
         selectClass = new SelectClass();
         selectClass.selectClass(driverios);
-
         pushClass = new PushClass();
         pushClass.pushClassOne(driverios);
-
     }
 
     @AfterMethod

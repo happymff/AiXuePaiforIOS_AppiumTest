@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  * Created by mengfeifei on 2016/12/29.
  */
 public class TeacherLoginTest {
-    IOSDriver driverios, driverios2;
+    IOSDriver driverios2;
     util.InitializeDriver initialize;
     StartAppiumServer startAppiumServer;
 
@@ -27,7 +27,7 @@ public class TeacherLoginTest {
     public void setUp() throws Exception {
         startAppiumServer = new StartAppiumServer();
         startAppiumServer.startAppium();
-        Thread.sleep(10000);
+        Thread.sleep(20000);
         initialize = new util.InitializeDriver();
         // initializing driver object
         //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
@@ -42,18 +42,18 @@ public class TeacherLoginTest {
         int height2 = driverios2.manage().window().getSize().height;
         System.out.println(width2);
         System.out.println(height2);
-        if(platv.startsWith("9")) {
+        if (platv.startsWith("9")) {
             ScrollPagesFor9 scrollPages = new ScrollPagesFor9();
 
-            for(int i = 0; i <3 ;i ++) {
-                scrollPages.scrollRightToLeft(driverios2, (i+1), width2, height2);
+            for (int i = 0; i < 3; i++) {
+                scrollPages.scrollRightToLeft(driverios2, (i + 1), width2, height2);
             }
-        }else if(platv.startsWith("10")){
+        } else if (platv.startsWith("10")) {
             ScrollPages scrollPages = new ScrollPages();
-            for(int i = 0; i <3 ;i ++) {
-                scrollPages.scrollRightToLeft(driverios2, (i+1), width2, height2);
+            for (int i = 0; i < 3; i++) {
+                scrollPages.scrollRightToLeft(driverios2, (i + 1), width2, height2);
             }
-        }else {
+        } else {
             System.out.println("版本信息错误~~~");
         }
         System.out.println("滑动成功");
@@ -74,12 +74,12 @@ public class TeacherLoginTest {
         //学生账号选择教师
         Thread.sleep(2000);
         IsElementPresent isElementPresent1 = new IsElementPresent();
-        int count =0;
-        while (!(isElementPresent1.isElementPresent(By.id("飞飞"),driverios2))){
-            System.out.println(isElementPresent1.isElementPresent(By.id("飞飞"),driverios2));
+        int count = 0;
+        while (!(isElementPresent1.isElementPresent(By.id("飞飞"), driverios2))) {
+            System.out.println(isElementPresent1.isElementPresent(By.id("飞飞"), driverios2));
             Thread.sleep(2000);
-            count ++;
-            if(count==100){
+            count++;
+            if (count == 100) {
                 break;
             }
 
@@ -87,13 +87,13 @@ public class TeacherLoginTest {
         driverios2.findElement(By.id("飞飞")).click();
         driverios2.findElement(By.id("进入课堂")).click();
 
-        for (int i = 1; i < 1000; i++) {
+        for (int i = 1; i < 10000; i++) {
             IsElementPresent isElementPresent = new IsElementPresent();
             Boolean isprensent = isElementPresent.isElementPresent(By.id("返回"), driverios2);
             while (true) {
                 if (isprensent) {
                     driverios2.findElement(By.id("返回")).click();
-                    System.out.println("第"+i+"次点击返回成功");
+                    System.out.println("第" + i + "次点击返回成功");
                     break;
                 } else {
                     Thread.sleep(1000);
@@ -105,7 +105,6 @@ public class TeacherLoginTest {
 
     @AfterMethod
     public void tearDown() {
-        //driverios.quit();
         driverios2.quit();
     }
 }
