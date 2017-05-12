@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="AiXuePaiForIOS(failed)">
+    <classes>
+      <class name="iosTest.LoginTest1">
+        <methods>
+          <include name="loginFaildTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- iosTest.LoginTest1 -->
+    </classes>
+  </test> <!-- AiXuePaiForIOS(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

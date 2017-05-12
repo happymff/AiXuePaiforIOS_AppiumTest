@@ -37,10 +37,11 @@ public class ScreenShot {
         System.out.println("截图啦~~~");
         String screenName = String.valueOf(new Date().getTime()) + ".jpg";
         File classpathRoot = new File(System.getProperty("user.dir"));
-        File dir = new File(classpathRoot, "src/test/resource/screenshots");
+        File dir = new File(classpathRoot, "src/test-output/screenshots");
         if (!dir.exists())
             dir.mkdirs();
         String screenPath = dir.getAbsolutePath() + "/" + screenName;
+        System.out.println(screenName);
         this.takeScreenshot(screenPath);
     }
 }
