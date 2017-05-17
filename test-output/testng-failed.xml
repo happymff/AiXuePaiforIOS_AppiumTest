@@ -12,11 +12,12 @@
     <parameter name="pwd" value="a11111"/>
     <parameter name="username" value="爱学派D"/>
     <classes>
-      <class name="util.Test15">
+      <class name="iosTest.LoginTest1">
         <methods>
-          <include name="testAssert1" invocation-numbers="1 2"/>
+          <include name="loginFaildTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- util.Test15 -->
+      </class> <!-- iosTest.LoginTest1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

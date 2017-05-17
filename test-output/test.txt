@@ -1,4 +1,1 @@
-"util.Test15","testAssert1","2017-05-17 14:22:21","15毫秒","SUCCESS"
-"util.Test15","testAssert1","2017-05-17 14:22:21","1毫秒","FAILURE"
-"util.Test15","testAssert1","2017-05-17 14:22:21","0毫秒","FAILURE"
-"util.Test15","testAssert2","2017-05-17 14:22:21","1毫秒","SUCCESS"
+"iosTest.LoginTest1","loginFaildTest","2017-05-17 16:15:30","90976毫秒","SUCCESS"

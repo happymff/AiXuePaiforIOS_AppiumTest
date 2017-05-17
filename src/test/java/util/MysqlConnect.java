@@ -17,7 +17,7 @@ public class MysqlConnect {
         String user = "root";
         // MySQL配置时的密码
         String password = "1234";
-        String runResult;
+        String runResult,className;
         String [] strings = s.split("\n");
         //System.out.println(strings[0]);
         try {
@@ -49,8 +49,9 @@ public class MysqlConnect {
             while(rs.next())  {
                 // 选择runResult这列数据
                 runResult = rs.getString("runResult");
+                className = rs.getString("className");
                 // 输出结果
-                System.out.println("runResult:"+ "\t" + runResult);
+                System.out.println("className:"+"\t"+className+"\t"+"runResult:"+ "\t" + runResult);
             }
             rs.close();
             conn.close();
