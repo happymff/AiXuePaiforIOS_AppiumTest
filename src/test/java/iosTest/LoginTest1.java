@@ -77,7 +77,7 @@ public class LoginTest1 {
         WebElement result = result1;
         System.out.println(result.getText());
         //ScreenshotListener screenshotListener = new ScreenshotListener();
-        assert result.getText().equals("请选择") : "Actual value is :" + result.getText() + " did not match with expected value: 请选择上课班级";
+        Assert.assertEquals("请选择上课班级1",result.getText());
         String s = String.valueOf(driverios.manage().logs().get("crashlog"));
         System.out.println(s);
     }
