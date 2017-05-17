@@ -4,6 +4,9 @@
     <listeners>
         <listener class-name="method.DotTestListener"></listener>
         <listener class-name="util.NewReport1"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--注释  -->
     </listeners>
     <test name="Test">
         <classes>
