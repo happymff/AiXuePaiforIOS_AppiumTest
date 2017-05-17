@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
  * Created by mff on 2017/3/28.
  */
 
-@Listeners({DotTestListener.class})
+//@Listeners({DotTestListener.class})
 public class LoginTest1 {
     static IOSDriver driverios;
     InitializeDriver initialize;

@@ -3,6 +3,7 @@
 <suite name="Suite" parallel="false">
     <listeners>
         <listener class-name="method.DotTestListener"></listener>
+        <listener class-name="util.NewReport1"></listener>
     </listeners>
     <test name="Test">
         <classes>
