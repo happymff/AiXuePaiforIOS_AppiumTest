@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({NewReport1.class})
+//@Listeners({NewReport1.class})
 public class Test15 {
 
     @DataProvider

@@ -4,19 +4,19 @@
   <parameter name="pwd" value="a11111"/>
   <parameter name="username" value="爱学派D"/>
   <listeners>
-    <listener class-name="method.DotTestListener"/>
     <listener class-name="util.NewReport1"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
   <test name="Test(failed)">
     <parameter name="pwd" value="a11111"/>
     <parameter name="username" value="爱学派D"/>
     <classes>
-      <class name="iosTest.LoginTest1">
+      <class name="util.Test15">
         <methods>
-          <include name="loginFaildTest"/>
-          <include name="setUp"/>
+          <include name="testAssert1" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- iosTest.LoginTest1 -->
+      </class> <!-- util.Test15 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

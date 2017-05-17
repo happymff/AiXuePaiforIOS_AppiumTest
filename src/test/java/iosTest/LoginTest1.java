@@ -76,7 +76,7 @@ public class LoginTest1 {
         result1.click();
         WebElement result = result1;
         //ScreenshotListener screenshotListener = new ScreenshotListener();
-        assert result.getText().equals("请选择上课班级1") : "Actual value is :" + result.getText() + " did not match with expected value: 请选择上课班级1";
+        assert result.getText().equals("请选择") : "Actual value is :" + result.getText() + " did not match with expected value: 请选择上课班级";
     }
         @AfterMethod
         public void tearDown () {
