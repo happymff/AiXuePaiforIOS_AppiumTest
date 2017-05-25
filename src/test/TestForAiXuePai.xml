@@ -17,10 +17,11 @@
                 <parameter name="username" value="爱学派D"/>
                 <parameter name="pwd" value="a11111"/>
             </parameters>
-
+            <!--注释 <class name="iosTest.TeacherLoginTest"/>
+           注释
+           <class name="util.Test15"/>  -->
             <class name="iosTest.LoginTest1"/>
 
-            <!--注释  注释 <class name="util.Test15"/>-->
          </classes>
      </test>
  </suite>

@@ -5,6 +5,7 @@ import io.appium.java_client.ios.IOSDriver;
 import method.ScrollPages;
 import method.ScrollPagesFor9;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -40,6 +41,7 @@ public class TeacherLoginTest {
         //学生账号进行登录
         int width2 = driverios2.manage().window().getSize().width;
         int height2 = driverios2.manage().window().getSize().height;
+        int count =0;
         System.out.println(width2);
         System.out.println(height2);
         if (platv.startsWith("9")) {
@@ -74,7 +76,8 @@ public class TeacherLoginTest {
         //学生账号选择教师
         Thread.sleep(2000);
         IsElementPresent isElementPresent1 = new IsElementPresent();
-        int count = 0;
+
+        int count1 = 0;
         while (!(isElementPresent1.isElementPresent(By.id("飞飞"), driverios2))) {
             System.out.println(isElementPresent1.isElementPresent(By.id("飞飞"), driverios2));
             Thread.sleep(2000);
@@ -87,19 +90,21 @@ public class TeacherLoginTest {
         driverios2.findElement(By.id("飞飞")).click();
         driverios2.findElement(By.id("进入课堂")).click();
 
-        for (int i = 1; i < 10000; i++) {
+        for (int i = 0; i < 10000; i++) {
+            count++;
             IsElementPresent isElementPresent = new IsElementPresent();
             Boolean isprensent = isElementPresent.isElementPresent(By.id("返回"), driverios2);
             while (true) {
                 if (isprensent) {
                     driverios2.findElement(By.id("返回")).click();
-                    System.out.println("第" + i + "次点击返回成功");
+                    System.out.println("第" + (i+1) + "次点击返回成功");
                     break;
                 } else {
                     Thread.sleep(1000);
                 }
             }
         }
+        Assert.assertEquals(count1,10000);
     }
 
 

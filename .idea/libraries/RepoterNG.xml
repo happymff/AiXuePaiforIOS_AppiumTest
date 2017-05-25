@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="RepoterNG">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/RepoterNG" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/RepoterNG" recursive="false" />
+  </library>
+</component>

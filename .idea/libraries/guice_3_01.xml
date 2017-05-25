@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="guice-3.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RepoterNG/guice-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RepoterNG/reportng-1.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RepoterNG/velocity-1.7-dep.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

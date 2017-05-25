@@ -33,6 +33,7 @@ public class LoginTest1 {
     static IOSDriver driverios;
     InitializeDriver initialize;
     Login login;
+    AutoLogger autoLogger =new AutoLogger();
 
     @BeforeMethod
     public void setUp() throws Exception {

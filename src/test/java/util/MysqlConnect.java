@@ -12,7 +12,7 @@ public class MysqlConnect {
         // 驱动程序名
         String driver = "com.mysql.jdbc.Driver";
         // URL指向要访问的数据库名students
-        String url = "jdbc:mysql://192.168.8.138/database1";
+        String url = "jdbc:mysql://192.168.8.183/database1";
         // MySQL配置时的用户名
         String user = "root";
         // MySQL配置时的密码
