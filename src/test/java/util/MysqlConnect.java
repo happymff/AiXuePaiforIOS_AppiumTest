@@ -8,20 +8,17 @@ import java.sql.*;
 
 public class MysqlConnect {
     public void connectMysql(String s){
-        //System.out.println(s);
         // 驱动程序名
         String driver = "com.mysql.jdbc.Driver";
         // URL指向要访问的数据库名students
-        String url = "jdbc:mysql://192.168.8.183/database1";
+        String url = "jdbc:mysql://192.168.10.116/database1";
         // MySQL配置时的用户名
         String user = "root";
         // MySQL配置时的密码
         String password = "1234";
         String runResult,className;
         String [] strings = s.split("\n");
-        //System.out.println(strings[0]);
         try {
-            //System.out.println(s);
             // 加载驱动程序
             Class.forName(driver);
             // 连接数据库

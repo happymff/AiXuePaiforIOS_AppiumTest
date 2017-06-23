@@ -1,26 +1,19 @@
 package iosTest;
 
 import DataProvider.DataProvid;
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
-import method.DotTestListener;
 import method.Login;
 import method.ScrollPages;
 import method.ScrollPagesFor9;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import util.*;
 
-import java.io.File;
-import java.io.IOException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -31,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 //@Listeners({DotTestListener.class})
 public class LoginTest1 {
     static IOSDriver driverios;
-    InitializeDriver initialize;
+    InitSetup is;
     Login login;
     AutoLogger autoLogger =new AutoLogger();
 
@@ -41,10 +34,8 @@ public class LoginTest1 {
         startAppiumServer = new StartAppiumServer();
         startAppiumServer.startAppium();
         Thread.sleep(20000);
-
-        initialize = new InitializeDriver();
-        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3.3", "iPad mini2", "4d5a7ada1f9f8025019021777679610424440b68"));
-        //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
+        is = new InitSetup();
+        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), is.InitSetUpCFG(new DesiredCapabilities()));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
@@ -86,8 +77,4 @@ public class LoginTest1 {
         public void tearDown () {
             driverios.quit();
         }
-
-    public static IOSDriver getDriver() {
-        return driverios;
-    }
 }

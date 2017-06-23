@@ -8,19 +8,16 @@ import org.openqa.selenium.WebElement;
 public class StartAppiumServer {
     public static Process p;
     // Set path of your node.exe file.
-    // Progra~1 represents Program Files folder.
     public static  String nodePath = "/usr/local/bin/node";
     // Set path of your appium.js file.
     public static  String appiumJSPath = "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js";
     public static  String cmd = nodePath + " " + appiumJSPath;
-    public static  String killcmd ="ps -ax|grep -i \"iproxy\"|grep -v grep|awk '{print \"kill -9 \" $1}'|sh";
-    IOSDriver<WebElement> driver;
+    public static  String killcmd ="killall -9 node";
 
     // This method Is responsible for starting appium server.
     public static void appiumStart() throws IOException, InterruptedException {
         // Execute command string to start appium server.
         p = Runtime.getRuntime().exec(cmd);
-
         // Provide wait time of 10 mins to start appium server properly.
         // If face any error(Could not start a new session...) then Increase
         // this time to 15 or 20 mins.

@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="98.536">
+           time="45.209">
   <properties />
-            <testcase name="loginFaildTest" time="98.536" classname="iosTest.LoginTest1">
+            <testcase name="loginFaildTest" time="45.209" classname="iosTest.LoginTest1">
                 <failure type="java.lang.AssertionError"
                   message="expected [请选择上课班级] but found [请选择上课班级1]"
               >
@@ -16,7 +16,7 @@
   org.testng.Assert.assertEquals(Assert.java:125)
   org.testng.Assert.assertEquals(Assert.java:178)
   org.testng.Assert.assertEquals(Assert.java:188)
-  iosTest.LoginTest1.loginFaildTest(LoginTest1.java:80)
+  iosTest.LoginTest1.loginFaildTest(LoginTest1.java:72)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

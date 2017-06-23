@@ -23,7 +23,7 @@ public class DataProvid {
     @DataProvider(name = "LoginSucess")
     public static Object[][] loginsucess() {
         return new Object[][] {
-                new Object[] { "爱学派FF", "a11111" ,"9.3.3"}
+                new Object[] { "爱学派FF", "a11111" ,"10.1"}
         };
     }
     @DataProvider(name = "TeacherYun")

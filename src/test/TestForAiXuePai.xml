@@ -5,7 +5,7 @@
         <!--生成测试失败时的截图
         <listener class-name="method.DotTestListener"></listener> -->
         <!--将测试结果存入数据库-->
-        <listener class-name="util.NewReport1"></listener>
+        <listener class-name="util.AddTestResultToMySQL"></listener>
         <!--生成美观的Report  -->
         <listener class-name="org.uncommons.reportng.HTMLReporter" />
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />

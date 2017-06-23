@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="159045" started-at="2017-05-25T09:14:43Z" finished-at="2017-05-25T09:17:22Z">
+  <suite name="Suite" duration-ms="106491" started-at="2017-06-23T09:54:24Z" finished-at="2017-06-23T09:56:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="159045" started-at="2017-05-25T09:14:43Z" finished-at="2017-05-25T09:17:22Z">
+    <test name="Test" duration-ms="106491" started-at="2017-06-23T09:54:24Z" finished-at="2017-06-23T09:56:11Z">
       <class name="iosTest.LoginTest1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:iosTest.LoginTest1@2a17b7b6]" name="setUp" is-config="true" duration-ms="59916" started-at="2017-05-25T17:14:43Z" finished-at="2017-05-25T17:15:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:iosTest.LoginTest1@527740a2]" name="setUp" is-config="true" duration-ms="60835" started-at="2017-06-23T17:54:24Z" finished-at="2017-06-23T17:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginFaildTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iosTest.LoginTest1@2a17b7b6]" name="loginFaildTest" duration-ms="98536" started-at="2017-05-25T17:15:43Z" description="登陆成功" data-provider="LoginSucess" finished-at="2017-05-25T17:17:22Z">
+        <test-method status="FAIL" signature="loginFaildTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iosTest.LoginTest1@527740a2]" name="loginFaildTest" duration-ms="45209" started-at="2017-06-23T17:55:25Z" description="登陆成功" data-provider="LoginSucess" finished-at="2017-06-23T17:56:10Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[9.3.3]]>
+                <![CDATA[10.1]]>
               </value>
             </param>
           </params>
@@ -40,7 +40,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at iosTest.LoginTest1.loginFaildTest(LoginTest1.java:80)
+	at iosTest.LoginTest1.loginFaildTest(LoginTest1.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFaildTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:iosTest.LoginTest1@2a17b7b6]" name="tearDown" is-config="true" duration-ms="561" started-at="2017-05-25T17:17:22Z" finished-at="2017-05-25T17:17:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:iosTest.LoginTest1@527740a2]" name="tearDown" is-config="true" duration-ms="410" started-at="2017-06-23T17:56:10Z" finished-at="2017-06-23T17:56:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

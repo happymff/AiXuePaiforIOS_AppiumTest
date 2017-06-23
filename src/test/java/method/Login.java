@@ -22,7 +22,7 @@ public class Login {
         loginPage.loginButton.click();
     }
 
-    //登录成功
+    //登录失败
     public void loginFailed(IOSDriver iosDriver, String username, String pwd) {
         loginPage = new LoginPage(iosDriver);
         loginPage.userName.clear();

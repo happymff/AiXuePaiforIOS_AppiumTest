@@ -4,7 +4,7 @@
   <parameter name="pwd" value="a11111"/>
   <parameter name="username" value="爱学派D"/>
   <listeners>
-    <listener class-name="util.NewReport1"/>
+    <listener class-name="util.AddTestResultToMySQL"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>

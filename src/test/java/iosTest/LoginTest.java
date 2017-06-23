@@ -24,7 +24,7 @@ public class LoginTest {
     @BeforeMethod
     public void setUp() throws Exception {
         initialize = new InitializeDriver();
-        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3.3", "iPad mini2", "4d5a7ada1f9f8025019021777679610424440b68"));
+        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini2", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
         //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
 
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
