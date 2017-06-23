@@ -1,6 +1,5 @@
 package util;
 
-import iosTest.LoginTest1;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Reporter;
 

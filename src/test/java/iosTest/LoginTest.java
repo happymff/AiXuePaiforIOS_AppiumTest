@@ -5,28 +5,33 @@ import method.Login;
 import method.ScrollPages;
 import method.ScrollPagesFor9;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 import DataProvider.DataProvid;
+import util.InitSetup;
 import util.InitializeDriver;
 import util.IsElementPresent;
+import util.StartAppiumServer;
 
 /**
  * Created by mff on 2017/3/28.
  */
 public class LoginTest {
     IOSDriver driverios;
-    InitializeDriver initialize;
+    InitSetup is;
     Login login;
 
     @BeforeMethod
     public void setUp() throws Exception {
-        initialize = new InitializeDriver();
-        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini2", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-        //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-
+        StartAppiumServer startAppiumServer;
+        startAppiumServer = new StartAppiumServer();
+        startAppiumServer.startAppium();
+        Thread.sleep(20000);
+        is = new InitSetup();
+        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), is.InitSetUpCFG(new DesiredCapabilities()));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 

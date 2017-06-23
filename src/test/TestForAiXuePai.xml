@@ -20,7 +20,7 @@
             <!--注释 <class name="iosTest.TeacherLoginTest"/>
            注释
            <class name="util.Test15"/>  -->
-            <class name="iosTest.LoginTest1"/>
+            <class name="iosTest.LoginTest"/>
 
          </classes>
      </test>
