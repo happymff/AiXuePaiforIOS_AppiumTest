@@ -1,0 +1,43 @@
+
+{
+  "modelData": {
+      "EDSeniorLeadership":
+      {
+          "HighestLeader":
+          {
+              "name":"AiXuePaiKing",
+              "level":"10000",
+              "perType":"2",
+              "empNumber":"ETT0001",
+          },
+          "PersonnelDepartment":
+          {
+              "name":"PersonnelDepartment",
+              "level":"4001",
+              "perType":"2",
+              "empNumber":"ETT0003",
+          },
+          "SecurityDepartment":
+          {
+              "name":"SecurityDepartment",
+              "level":"4002",
+              "perType":"2",
+              "empNumber":"ETT0004",
+          },
+          "CivilAffairsDepartment":
+          {
+              "name":"CivilAffairsDepartment",
+              "level":"4003",
+              "perType":"2",
+              "empNumber":"ETT0005",
+          },
+          "GenneralManager":
+          {
+              "name":"GenneralManager",
+              "level":"9001",
+              "perType":"2",
+              "empNumber":"ETT0002",
+          },
+      }
+  }
+}

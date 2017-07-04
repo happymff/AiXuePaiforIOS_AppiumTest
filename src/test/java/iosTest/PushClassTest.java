@@ -4,10 +4,13 @@ import DataProvider.DataProvid;
 import io.appium.java_client.ios.IOSDriver;
 import method.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import util.AutoLogger;
+import util.InitSetup;
 import util.InitializeDriver;
 import util.IsElementPresent;
 
@@ -18,23 +21,24 @@ import java.util.concurrent.TimeUnit;
  * Created by mff on 2017/3/28.
  */
 public class PushClassTest {
+    private static AutoLogger logger = AutoLogger.getLogger(PushClassTest.class);
     IOSDriver driverios;
-    InitializeDriver initialize;
+    InitSetup is;
     PushClass pushClass;
     Login login;
     SelectClass selectClass;
 
     @BeforeMethod
     public void setUp() throws Exception {
-        initialize = new InitializeDriver();
-        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3.3", "iPad mini2", "4d5a7ada1f9f8025019021777679610424440b68"));
-        //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-
+        //initialize = new InitializeDriver();
+        is = new InitSetup();
+        driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), is.InitSetUpCFG(new DesiredCapabilities()));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test(description = "登陆成功", dataProvider = "LoginSucess", dataProviderClass = DataProvid.class)
     public void pushClassTest(String username, String pwd, String platv) throws Exception {
+        logger.log("This is pushClassTest log");
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(3000);
         int width = driverios.manage().window().getSize().width;
@@ -61,6 +65,8 @@ public class PushClassTest {
         selectClass.selectClass(driverios);
         pushClass = new PushClass();
         pushClass.pushClassOne(driverios);
+        Thread.sleep(1000);
+        Assert.assertEquals("结束推送",driverios.findElement(By.id("结束推送")).getText());
     }
 
     @AfterMethod

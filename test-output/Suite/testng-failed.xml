@@ -12,13 +12,19 @@
     <parameter name="pwd" value="a11111"/>
     <parameter name="username" value="爱学派D"/>
     <classes>
-      <class name="iosTest.LoginTest1">
+      <class name="iosTest.LoginTest">
         <methods>
-          <include name="loginFaildTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- iosTest.LoginTest -->
+      <class name="iosTest.PushClassTest">
+        <methods>
+          <include name="pushClassTest" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- iosTest.LoginTest1 -->
+      </class> <!-- iosTest.PushClassTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

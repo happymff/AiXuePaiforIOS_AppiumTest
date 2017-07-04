@@ -66,6 +66,8 @@ public class InitSetup {
             //重置Appium为默念输入法
             capabilities.setCapability("newCommandTimeout",Config.getInstance().getCfg("newCommandTimeout"));
             //设置Appium命令超时时间
+            capabilities.setCapability("fullReset",Config.getInstance().getCfg("fullReset"));
+            //设置Appium命令超时时间
         }
         return capabilities;
     }

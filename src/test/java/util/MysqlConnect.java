@@ -5,9 +5,9 @@ package util;
  */
 
 import java.sql.*;
-
 public class MysqlConnect {
     public void connectMysql(String s){
+        //System.out.println(s);
         // 驱动程序名
         String driver = "com.mysql.jdbc.Driver";
         // URL指向要访问的数据库名students
@@ -18,13 +18,18 @@ public class MysqlConnect {
         String password = "1234";
         String runResult,className;
         String [] strings = s.split("\n");
+        //System.out.println(strings[0]);
         try {
+            //System.out.println(s);
             // 加载驱动程序
             Class.forName(driver);
             // 连接数据库
             Connection conn = DriverManager.getConnection(url, user, password);
-            if(!conn.isClosed())
+            if(!conn.isClosed()) {
                 System.out.println("Succeeded connecting to the Database!");
+            }else {
+                System.out.println("Failed connecting the Database!");
+            }
             for (String insertString: strings) {
                 // 要执行的SQL语句
                 String sql1 = "insert into testngResult1 values(" + insertString + ")";

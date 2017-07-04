@@ -14,13 +14,21 @@ public class CourseOneListPage {
     @FindBy(id="试卷")
     public WebElement paperlist;
     @FindBy(id="自动化测试需要")
-    public WebElement pdfClass;
+    public WebElement pdfClassAuto;
+    @FindBy(id="appium测试")
+    public WebElement pdfClassappium;
     @FindBy(id="诗两首")
     public WebElement wordClass;
     @FindBy(id="courselist_bg_ppt")
     public WebElement pptClass;
     @FindBy(id="返回")
     public WebElement back;
+    @FindBy(id="第三方打开")
+    public WebElement openWPS;
+    @FindBy(id="推送打开")
+    public WebElement openPush;
+    @FindBy(id="取消")
+    public WebElement cancel;
 
     public CourseOneListPage(WebDriver driver){
         PageFactory.initElements(driver, this);

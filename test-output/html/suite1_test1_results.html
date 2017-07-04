@@ -12,7 +12,7 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 106.454s
+  Test duration: 474.997s
 </p>
 
 
@@ -20,30 +20,26 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">iosTest.LoginTest1</td>
+        <td colspan="3" class="group">iosTest.SelectClassTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  <span class="description" title="登陆成功">loginFaildTest</span>
+                  <span class="description" title="登陆成功">selectClassSucessTest</span>
       </td>
   <td class="duration">
-    45.209s
+    52.660s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"爱学派FF", "a11111", "10.1"</span><br />
+          <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [请选择上课班级] but found [请选择上课班级1]</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String</b></a><br />
     <div class="stackTrace" id="exception-0">
-              org.testng.Assert.fail(Assert.java:94)<br />
-              org.testng.Assert.failNotEquals(Assert.java:496)<br />
-              org.testng.Assert.assertEquals(Assert.java:125)<br />
-              org.testng.Assert.assertEquals(Assert.java:178)<br />
-              org.testng.Assert.assertEquals(Assert.java:188)<br />
-              iosTest.LoginTest1.loginFaildTest(LoginTest1.java:72)<br />
+              org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:157)<br />
+              iosTest.SelectClassTest.selectClassSucessTest(SelectClassTest.java:63)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -78,6 +74,75 @@
       </table>
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">iosTest.FinshPushClassTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="登陆成功">pushClassTest</span>
+      </td>
+  <td class="duration">
+    142.666s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
+    
+            <div class="testOutput">
+                        Reporter:2017-07-04 18:14:17===&gt;This is finishPushClassTest log<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">iosTest.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="登陆成功">loginSucessTest</span>
+      </td>
+  <td class="duration">
+    45.270s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
+    
+            <div class="testOutput">
+                        Reporter:2017-07-04 18:09:28===&gt;This is log message.<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">iosTest.PushClassTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="登陆成功">pushClassTest</span>
+      </td>
+  <td class="duration">
+    107.457s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
+    
+            <div class="testOutput">
+                        Reporter:2017-07-04 18:10:41===&gt;This is pushClassTest log<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
   
 </body>
 </html>

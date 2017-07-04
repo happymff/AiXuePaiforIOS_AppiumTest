@@ -17,7 +17,7 @@ import java.util.Properties;
 public class AutoLogger {
     private static org.apache.log4j.Logger logger = null;
     private static AutoLogger logg = null;
-    public static AutoLogger getLogger(Class<iosTest.LoginTest> T){
+    public static AutoLogger getLogger(Class<?> T){
         if (logger==null){
             Properties props = new Properties();
             try {
@@ -40,6 +40,7 @@ public class AutoLogger {
     }
     public void debug(String msg){
         logger.debug(msg);
+        Reporter.log("Reporter:"+msg);
     }
     public void warn(String msg){
         logger.warn(msg);
