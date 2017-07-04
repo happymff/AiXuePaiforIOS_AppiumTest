@@ -17,7 +17,7 @@ import java.util.Properties;
 public class AutoLogger {
     private static org.apache.log4j.Logger logger = null;
     private static AutoLogger logg = null;
-    public static AutoLogger getLogger(Class<iosTest.LoginTest1> T){
+    public static AutoLogger getLogger(Class<iosTest.LoginTest> T){
         if (logger==null){
             Properties props = new Properties();
             try {

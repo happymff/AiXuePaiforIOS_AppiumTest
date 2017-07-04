@@ -10,16 +10,16 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
 import DataProvider.DataProvid;
-import util.InitSetup;
-import util.InitializeDriver;
-import util.IsElementPresent;
-import util.StartAppiumServer;
+import util.*;
 
 /**
  * Created by mff on 2017/3/28.
  */
 public class LoginTest {
+    private static AutoLogger logger = AutoLogger.getLogger(LoginTest.class);
     IOSDriver driverios;
     InitSetup is;
     Login login;
@@ -37,6 +37,7 @@ public class LoginTest {
 
     @Test(description = "登陆成功", dataProvider = "LoginSucess", dataProviderClass = DataProvid.class)
     public void loginSucessTest(String username, String pwd, String platv) throws Exception {
+        logger.log("This is log message.");
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Thread.sleep(3000);
         int width = driverios.manage().window().getSize().width;
