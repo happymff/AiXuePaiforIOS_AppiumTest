@@ -68,6 +68,7 @@ public class InitSetup {
             //设置Appium命令超时时间
             capabilities.setCapability("fullReset",Config.getInstance().getCfg("fullReset"));
             //设置Appium命令超时时间
+            //capabilities.setCapability("noReset",Config.getInstance().getCfg("noReset"));
         }
         return capabilities;
     }

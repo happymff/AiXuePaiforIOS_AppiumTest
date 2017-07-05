@@ -12,31 +12,36 @@
     <parameter name="pwd" value="a11111"/>
     <parameter name="username" value="爱学派D"/>
     <classes>
-      <class name="iosTest.LoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- iosTest.LoginTest -->
-      <class name="iosTest.SelectClassTest">
-        <methods>
-          <include name="selectClassSucessTest" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- iosTest.SelectClassTest -->
-      <class name="iosTest.FinshPushClassTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- iosTest.FinshPushClassTest -->
       <class name="iosTest.PushClassTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="pushClassTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- iosTest.PushClassTest -->
+      <class name="iosTest.FinshPushClassTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="pushClassTest"/>
+        </methods>
+      </class> <!-- iosTest.FinshPushClassTest -->
+      <class name="iosTest.PushPaperTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="pushClassTest"/>
+        </methods>
+      </class> <!-- iosTest.PushPaperTest -->
+      <class name="iosTest.SelectClassTest">
+        <methods>
+          <include name="selectClassSucessTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- iosTest.SelectClassTest -->
+      <class name="iosTest.LoginTest">
+        <methods>
+          <include name="loginSucessTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- iosTest.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [TestForNewAppium] -->

@@ -35,6 +35,7 @@ public class Config {
             //System.out.println("获取"+key+"的value："+value);
             // 有乱码时要进行重新编码
             //new String(props.getProperty("name").getBytes("ISO-8859-1"), "GBK");
+            //System.out.println(key+"="+value);
             return value;
 
         } catch (IOException e) {

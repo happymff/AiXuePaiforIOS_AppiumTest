@@ -6,16 +6,16 @@
            skipped="2"
            time="0.000">
   <properties />
-            <testcase name="setUp" time="0.000" classname="iosTest.SelectClassTest">
+            <testcase name="setUp" time="0.000" classname="iosTest.PushPaperTest">
                 <failure type="org.openqa.selenium.WebDriverException"
                   message="An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 32 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: IOSDriver"
               >
 <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The 'noReset' and 'fullReset' capabilities are mutually exclusive and should not both be set to true. You probably meant to just use 'fullReset' on its own (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 25 milliseconds
+Command duration or timeout: 32 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'MengfeifeideMac-Mini.local', ip: '10.20.30.108', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_121'
 Driver info: driver.version: IOSDriver
@@ -52,7 +52,7 @@ Driver info: driver.version: IOSDriver
   io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:114)
   io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:132)
   io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:81)
-  iosTest.SelectClassTest.setUp(SelectClassTest.java:32)
+  iosTest.PushPaperTest.setUp(PushPaperTest.java:33)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,9 +60,11 @@ Driver info: driver.version: IOSDriver
   org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
   org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
   org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
   org.testng.TestRunner.privateRun(TestRunner.java:774)
   org.testng.TestRunner.run(TestRunner.java:624)
   org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
@@ -86,10 +88,10 @@ Driver info: driver.version: IOSDriver
 
           </testcase>
   
-            <testcase name="tearDown" time="0.0" classname="iosTest.SelectClassTest">
+            <testcase name="tearDown" time="0.0" classname="iosTest.PushPaperTest">
           <skipped />
     </testcase>
-            <testcase name="selectClassSucessTest" time="0.0" classname="iosTest.SelectClassTest">
+            <testcase name="pushClassTest" time="0.0" classname="iosTest.PushPaperTest">
           <skipped />
     </testcase>
   

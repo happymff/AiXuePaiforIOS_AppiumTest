@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TestForNewAppium">
-              <span class="suite-name border-failed">TestForNewAppium</span>
+              <span class="suite-name border-skipped">TestForNewAppium</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,45 +90,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">5 methods,  5 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestForNewAppium" class="hide-methods failed suite-TestForNewAppium"> (hide)</a> <!-- hide-methods failed suite-TestForNewAppium -->
-                      <a href="#" panel-name="suite-TestForNewAppium" class="show-methods failed suite-TestForNewAppium"> (show)</a> <!-- show-methods failed suite-TestForNewAppium -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestForNewAppium" class="hide-methods skipped suite-TestForNewAppium"> (hide)</a> <!-- hide-methods skipped suite-TestForNewAppium -->
+                      <a href="#" panel-name="suite-TestForNewAppium" class="show-methods skipped suite-TestForNewAppium"> (show)</a> <!-- show-methods skipped suite-TestForNewAppium -->
                     </span>
-                    <div class="method-list-content failed suite-TestForNewAppium">
+                    <div class="method-list-content skipped suite-TestForNewAppium">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.SelectClassTest" hash-for-method="selectClassSucessTest(爱学派FF, 1111, 10.1)">selectClassSucessTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestForNewAppium -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-TestForNewAppium" class="hide-methods passed suite-TestForNewAppium"> (hide)</a> <!-- hide-methods passed suite-TestForNewAppium -->
-                      <a href="#" panel-name="suite-TestForNewAppium" class="show-methods passed suite-TestForNewAppium"> (show)</a> <!-- show-methods passed suite-TestForNewAppium -->
-                    </span>
-                    <div class="method-list-content passed suite-TestForNewAppium">
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.LoginTest" hash-for-method="loginSucessTest(爱学派FF, 1111, 10.1)">loginSucessTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.PushPaperTest" hash-for-method="pushClassTest(爱学派FF, 1111, 10.1)">pushClassTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.PushClassTest" hash-for-method="pushClassTest(爱学派FF, 1111, 10.1)">pushClassTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.FinshPushClassTest" hash-for-method="pushClassTest(爱学派FF, 1111, 10.1)">pushClassTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.PushClassTest" hash-for-method="pushClassTest(爱学派FF, 1111, 10.1)">pushClassTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestForNewAppium" title="iosTest.SelectClassTest" hash-for-method="selectClassSucessTest(爱学派FF, 1111, 10.1)">selectClassSucessTest(爱学派FF, 1111, 10.1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-TestForNewAppium -->
+                    </div> <!-- method-list-content skipped suite-TestForNewAppium -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,69 +136,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestForNewAppium" class="panel TestForNewAppium">
-          <div class="suite-TestForNewAppium-class-failed">
+          <div class="suite-TestForNewAppium-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">iosTest.SelectClassTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectClassSucessTest(爱学派FF, 1111, 10.1)">
-                  </a> <!-- selectClassSucessTest(爱学派FF, 1111, 10.1) -->
-                  <span class="method-name">selectClassSucessTest</span>
-                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
-                  <div class="stack-trace">java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:157)
-	at iosTest.SelectClassTest.selectClassSucessTest(SelectClassTest.java:63)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(登陆成功)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestForNewAppium-class-failed -->
-          <div class="suite-TestForNewAppium-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">iosTest.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginSucessTest(爱学派FF, 1111, 10.1)">
-                  </a> <!-- loginSucessTest(爱学派FF, 1111, 10.1) -->
-                  <span class="method-name">loginSucessTest</span>
-                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
-                  <em>
-(登陆成功)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestForNewAppium-class-passed -->
-          <div class="suite-TestForNewAppium-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">iosTest.FinshPushClassTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="pushClassTest(爱学派FF, 1111, 10.1)">
-                  </a> <!-- pushClassTest(爱学派FF, 1111, 10.1) -->
-                  <span class="method-name">pushClassTest</span>
-                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
-                  <em>
-(登陆成功)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestForNewAppium-class-passed -->
-          <div class="suite-TestForNewAppium-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">iosTest.PushClassTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -217,7 +153,79 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestForNewAppium-class-passed -->
+          </div> <!-- suite-TestForNewAppium-class-skipped -->
+          <div class="suite-TestForNewAppium-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">iosTest.FinshPushClassTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pushClassTest(爱学派FF, 1111, 10.1)">
+                  </a> <!-- pushClassTest(爱学派FF, 1111, 10.1) -->
+                  <span class="method-name">pushClassTest</span>
+                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
+                  <em>
+(登陆成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestForNewAppium-class-skipped -->
+          <div class="suite-TestForNewAppium-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">iosTest.PushPaperTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pushClassTest(爱学派FF, 1111, 10.1)">
+                  </a> <!-- pushClassTest(爱学派FF, 1111, 10.1) -->
+                  <span class="method-name">pushClassTest</span>
+                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
+                  <em>
+(登陆成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestForNewAppium-class-skipped -->
+          <div class="suite-TestForNewAppium-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">iosTest.SelectClassTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectClassSucessTest(爱学派FF, 1111, 10.1)">
+                  </a> <!-- selectClassSucessTest(爱学派FF, 1111, 10.1) -->
+                  <span class="method-name">selectClassSucessTest</span>
+                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
+                  <em>
+(登陆成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestForNewAppium-class-skipped -->
+          <div class="suite-TestForNewAppium-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">iosTest.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSucessTest(爱学派FF, 1111, 10.1)">
+                  </a> <!-- loginSucessTest(爱学派FF, 1111, 10.1) -->
+                  <span class="method-name">loginSucessTest</span>
+                  <span class="parameters">(爱学派FF, 1111, 10.1)</span>
+                  <em>
+(登陆成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestForNewAppium-class-skipped -->
         </div> <!-- panel TestForNewAppium -->
         <div panel-name="test-xml-TestForNewAppium" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -241,6 +249,7 @@
       &lt;class name=&quot;iosTest.PushClassTest&quot;/&gt;
       &lt;class name=&quot;iosTest.SelectClassTest&quot;/&gt;
       &lt;class name=&quot;iosTest.FinshPushClassTest&quot;/&gt;
+      &lt;class name=&quot;iosTest.PushPaperTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- TestForNewAppium --&gt;
@@ -254,7 +263,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -280,28 +289,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pushClassTest')
-data.setCell(0, 2, 'iosTest.FinshPushClassTest')
-data.setCell(0, 3, 142666);
+data.setCell(0, 1, 'loginSucessTest')
+data.setCell(0, 2, 'iosTest.LoginTest')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'pushClassTest')
-data.setCell(1, 2, 'iosTest.PushClassTest')
-data.setCell(1, 3, 107457);
+data.setCell(1, 2, 'iosTest.PushPaperTest')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectClassSucessTest')
 data.setCell(2, 2, 'iosTest.SelectClassTest')
-data.setCell(2, 3, 52660);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginSucessTest')
-data.setCell(3, 2, 'iosTest.LoginTest')
-data.setCell(3, 3, 45270);
+data.setCell(3, 1, 'pushClassTest')
+data.setCell(3, 2, 'iosTest.PushClassTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'pushClassTest')
+data.setCell(4, 2, 'iosTest.FinshPushClassTest')
+data.setCell(4, 3, 0);
 window.suiteTableData['TestForNewAppium']= { tableData: data, tableDiv: 'times-div-TestForNewAppium'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-TestForNewAppium">
               </div> <!-- times-div-TestForNewAppium -->
             </div> <!-- times-div -->
@@ -312,24 +325,6 @@ return data;
             <span class="header-content">Reporter output for TestForNewAppium</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">pushClassTest(爱学派FF, 1111, 10.1)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Reporter:2017-07-04 18:14:17===>This is finishPushClassTest log</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginSucessTest(爱学派FF, 1111, 10.1)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Reporter:2017-07-04 18:09:28===>This is log message.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">pushClassTest(爱学派FF, 1111, 10.1)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Reporter:2017-07-04 18:10:41===>This is pushClassTest log</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestForNewAppium" class="panel">
@@ -347,64 +342,67 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">iosTest.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginSucessTest(爱学派FF, 1111, 10.1)</span>
-                <span class="method-start">42245 ms</span>
+                <span class="method-start">13144 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">87516 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">iosTest.PushClassTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">87962 ms</span>
+                <span class="method-start">13148 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pushClassTest(爱学派FF, 1111, 10.1)</span>
-                <span class="method-start">115638 ms</span>
+                <span class="method-start">13198 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">223096 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">iosTest.SelectClassTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">223623 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">13199 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
                 <span class="method-name">selectClassSucessTest(爱学派FF, 1111, 10.1)</span>
-                <span class="method-start">251016 ms</span>
+                <span class="method-start">13236 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">303682 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">iosTest.FinshPushClassTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">304224 ms</span>
+                <span class="method-start">13237 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pushClassTest(爱学派FF, 1111, 10.1)</span>
-                <span class="method-start">331812 ms</span>
+                <span class="method-start">13275 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">474478 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">iosTest.PushPaperTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">13276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pushClassTest(爱学派FF, 1111, 10.1)</span>
+                <span class="method-start">13319 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
