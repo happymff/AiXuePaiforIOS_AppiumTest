@@ -2,323 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c719dc6-7ca0-49e8-9511-25b75582e0f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon20x20@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon20x20~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon29x29@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon29x29~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon40x40@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon40x40~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon76x76@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon76x76~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/AppIcon83.5x83.5@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Assets.car" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ETTSideNavigationConfig.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/EttDatabaseConfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/EttDownLoadConfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/EttSeniorOfficialsConfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Explanation(说明文件)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/de.lproj/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/en.lproj/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/es.lproj/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/fr.lproj/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/zh-Hans/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/IQKeyboardManager.bundle/zh-Hant/IQKeyboardManager.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-700-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/MJRefresh.bundle/arrow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/MJRefresh.bundle/en.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/PkgInfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ReconnectWithTheClassroom_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_delete@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_delete@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_fill@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_fill@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_fit@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_fit@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_menu@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_menu@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_next@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_next@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_pause@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_pause@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_play@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_play@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_previous@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_previous@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_quit@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_quit@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_slider@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_slider@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_volume@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/SSVideoPlayer.bundle/player_volume@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/aixue_class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/aixue_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/bg_lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_bg_video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_cell_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_icon_course.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_icon_note_student.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_icon_note_teacher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_icon_textpaper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_list_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_without.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_audio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_excel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_jpg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_ppt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_bg_vedio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_icon_time_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courselist_icon_waiting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courseware_cell_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courseware_icon_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courseware_icon_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courseware_icon_word.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/courseware_invisible.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/default_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/embedded.mobileprovision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ettAiXuePaiNextGen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/icon_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/icon_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/icon_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/image_large_fail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/login_default_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_button_roolcall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_answer_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_answer_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_call_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_call_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_crown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_lock_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_lock_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_lockstudent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_no_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_no_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_no_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_reward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_team_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_team_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_tv_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/manage_icon_tv_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/menu_head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/menu_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/navbar_btn_back_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/navbar_btn_back_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/navbar_btn_thumbnail_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/navbar_btn_thumbnail_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/navbar_btn_viedoback_default@2x@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/panda_rotation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_back_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_back_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_control_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_control_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_forward_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_forward_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_pause_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_pause_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_play_default@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/player_play_pressed@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/pop_icon_audio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rc_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/read.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/rectangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_end.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_gif_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/responder_start.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/select_icon_logout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/startupPage_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/startupPage_cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/startupPage_demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/startupPage_text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/startupPage_title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/stu_Close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/stu_null.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/student.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/teacher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/textlist_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/textlistnone_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/user_defalt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/volume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_btn_login_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_btn_login_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_image_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_image_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_image_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/welcome_image_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/whiteboardDataConfig.plist" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/DataProvider/DataProvid.class" afterPath="$PROJECT_DIR$/target/test-classes/DataProvider/DataProvid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/FinshPushClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/FinshPushClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/LoginTestTestAppiumStart.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/LoginTestTestAppiumStart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/PushClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/PushClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/PushPaperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/PushPaperTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/SelectClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/SelectClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherSendPaperAndTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherSendPaperAndTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherSendPapers.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherSendPapers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/Login.class" afterPath="$PROJECT_DIR$/target/test-classes/method/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/PushClass.class" afterPath="$PROJECT_DIR$/target/test-classes/method/PushClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/PushPaper.class" afterPath="$PROJECT_DIR$/target/test-classes/method/PushPaper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/ScreenShot.class" afterPath="$PROJECT_DIR$/target/test-classes/method/ScreenShot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/ScrollPages.class" afterPath="$PROJECT_DIR$/target/test-classes/method/ScrollPages.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/ScrollPagesFor9.class" afterPath="$PROJECT_DIR$/target/test-classes/method/ScrollPagesFor9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/SelectClass.class" afterPath="$PROJECT_DIR$/target/test-classes/method/SelectClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/commonpage/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/commonpage/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/BehaviourOverAllPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/BehaviourOverAllPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/BehaviourPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/BehaviourPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/ClassDetailPushPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/ClassDetailPushPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/ClassOnePage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/ClassOnePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CourseClassDetailPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CourseClassDetailPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CourseOneListPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CourseOneListPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CoursePaperDetailPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/CoursePaperDetailPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/MyCoursePage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/MyCoursePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/NavigationPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/NavigationPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapePushAfterFinshAnswerPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapePushAfterFinshAnswerPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapePushPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapePushPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapeSumPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PapeSumPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PaperForCourseOneListPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/PaperForCourseOneListPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/QuestionPushPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/QuestionPushPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/SelectClassPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/SelectClassPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/teacherpage/StudentManagePage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/teacherpage/StudentManagePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AddTestResultToMySQL$1.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AddTestResultToMySQL$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AddTestResultToMySQL.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AddTestResultToMySQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AlertPresent.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AlertPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AutoLogger.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AutoLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/Config.class" afterPath="$PROJECT_DIR$/target/test-classes/util/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/InitSetup.class" afterPath="$PROJECT_DIR$/target/test-classes/util/InitSetup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/InitializeDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/util/InitializeDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/IsElementPresent.class" afterPath="$PROJECT_DIR$/target/test-classes/util/IsElementPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/MySQLTest.class" afterPath="$PROJECT_DIR$/target/test-classes/util/MySQLTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/MysqlConnect.class" afterPath="$PROJECT_DIR$/target/test-classes/util/MysqlConnect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadExcelJXL.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadExcelJXL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadExcelPOI.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadExcelPOI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadTxt$H20121012.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadTxt$H20121012.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadTxt.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadTxt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/Screenshot.class" afterPath="$PROJECT_DIR$/target/test-classes/util/Screenshot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ScreenshotListener.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ScreenshotListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/StartAppiumServer.class" afterPath="$PROJECT_DIR$/target/test-classes/util/StartAppiumServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appiumtest.iml" afterPath="$PROJECT_DIR$/appiumtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/run.log" afterPath="$PROJECT_DIR$/logs/run.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iosTest/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/iosTest/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/page/teacherpage/MyCoursePage.java" afterPath="$PROJECT_DIR$/src/test/java/page/teacherpage/MyCoursePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/page/teacherpage/SelectClassPage.java" afterPath="$PROJECT_DIR$/src/test/java/page/teacherpage/SelectClassPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/TestForNewAppium/Test.html" afterPath="$PROJECT_DIR$/test-output/TestForNewAppium/Test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/TestForNewAppium/Test.xml" afterPath="$PROJECT_DIR$/test-output/TestForNewAppium/Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/TestForNewAppium/testng-failed.xml" afterPath="$PROJECT_DIR$/test-output/TestForNewAppium/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/output.html" afterPath="$PROJECT_DIR$/test-output/html/output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/overview.html" afterPath="$PROJECT_DIR$/test-output/html/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/suites.html" afterPath="$PROJECT_DIR$/test-output/html/suites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="$PROJECT_DIR$/test-output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.FinshPushClassTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.FinshPushClassTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.LoginTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.LoginTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.PushClassTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.PushClassTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.PushPaperTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.PushPaperTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.SelectClassTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-iosTest.SelectClassTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/TestForNewAppium/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test-output/old/TestForNewAppium/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/TestForNewAppium/methods.html" afterPath="$PROJECT_DIR$/test-output/old/TestForNewAppium/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/TestForNewAppium/reporter-output.html" afterPath="$PROJECT_DIR$/test-output/old/TestForNewAppium/reporter-output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/TestForNewAppium/toc.html" afterPath="$PROJECT_DIR$/test-output/old/TestForNewAppium/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="$PROJECT_DIR$/test-output/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/test.txt" afterPath="$PROJECT_DIR$/test-output/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/xml/iosTest.FinshPushClassTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.FinshPushClassTest_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/xml/iosTest.LoginTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.LoginTest_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/xml/iosTest.PushClassTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.PushClassTest_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/xml/iosTest.PushPaperTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.PushPaperTest_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/xml/iosTest.SelectClassTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.SelectClassTest_results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1220,7 +904,7 @@
       <workItem from="1500879287669" duration="4678000" />
       <workItem from="1500884040738" duration="401000" />
       <workItem from="1500884446589" duration="114000" />
-      <workItem from="1500884564498" duration="833000" />
+      <workItem from="1500884564498" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="update ios test cases">
       <created>1490757900369</created>
@@ -1412,7 +1096,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211872000" />
+    <option name="totallyTimeSpent" value="212184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1425,7 +1109,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="983" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283237" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
@@ -1439,7 +1123,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32716763" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19075145" sideWeight="0.49254525" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19075145" sideWeight="0.49254525" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25825346" sideWeight="0.48787448" order="0" side_tool="false" content_ui="combo" />
