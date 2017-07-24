@@ -1,0 +1,5 @@
+2017-07-06 11:05:25,426INFO main[iosTest.LoginTest] log(line:38)This is log message.
+2017-07-06 11:27:41,068INFO main[iosTest.LoginTest] log(line:38)This is log message.
+2017-07-06 11:28:52,003INFO main[iosTest.LoginTest] log(line:38)This is pushClassTest log
+2017-07-06 11:32:43,107INFO main[iosTest.LoginTest] log(line:38)This is finishPushClassTest log
+2017-07-06 11:35:50,962INFO main[iosTest.LoginTest] log(line:38)This is pushPaperTest log

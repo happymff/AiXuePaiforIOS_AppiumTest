@@ -9,9 +9,9 @@ import org.openqa.selenium.support.PageFactory;
  * Created by mff on 2017/3/28.
  */
 public class SelectClassPage {
-    @FindBy(id="高二爱学派CS二班")
+    @FindBy(id="高三爱学派CS二班")
     public WebElement classOne;
-    @FindBy(id="高二爱学派CS一班")
+    @FindBy(id="高三爱学派CS一班")
     public WebElement classTwo;
     @FindBy(id="进入课堂")
     public WebElement enterButton;

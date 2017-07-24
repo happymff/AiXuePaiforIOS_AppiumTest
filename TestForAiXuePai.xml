@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestForNewAppium" parallel="false">
+    <test name="Test">
+        <classes>
+            <!--注释 -->
+            <class name="iosTest.LoginTest"/>
+            <class name="iosTest.PushClassTest"/>
+            <class name="iosTest.SelectClassTest"/>
+            <class name="iosTest.FinshPushClassTest"/>
+            <class name="iosTest.PushPaperTest"/>
+         </classes>
+     </test>
+ </suite>

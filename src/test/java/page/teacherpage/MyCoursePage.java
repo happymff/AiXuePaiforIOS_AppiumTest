@@ -15,7 +15,7 @@ public class MyCoursePage {
     public WebElement courseTwo;
     @FindBy(id="navbar menu default")
     public WebElement nav;
-    @FindBy(id="高二语文")
+    @FindBy(id="高三语文")
     public WebElement title;
     @FindBy(id="(11)")
     public WebElement courseOneNum;

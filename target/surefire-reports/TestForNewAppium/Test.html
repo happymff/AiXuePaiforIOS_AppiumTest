@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 24 16:25:51 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>664 seconds (664627 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='iosTest.LoginTest.loginSucessTest()'><b>loginSucessTest</b><br>Test class: iosTest.LoginTest<br>Test method: 登陆成功<br>Parameters: 爱学派FF, 1111, 10.1<br/>
+<a href="#Output-903525611" onClick='toggleBox("Output-903525611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903525611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903525611">
+Reporter:2017-07-24 16:27:12===>This is log message.<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>iosTest.LoginTest@13deb50e</td></tr>
+<tr>
+<td title='iosTest.PushClassTest.pushClassTest()'><b>pushClassTest</b><br>Test class: iosTest.PushClassTest<br>Test method: 登陆成功<br>Parameters: 爱学派FF, 1111, 10.1<br/>
+<a href="#Output-1802066694" onClick='toggleBox("Output-1802066694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1802066694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1802066694">
+Reporter:2017-07-24 16:28:35===>This is pushClassTest log<br/>
+</div>
+</td>
+<td></td>
+<td>105</td>
+<td>iosTest.PushClassTest@239963d8</td></tr>
+<tr>
+<td title='iosTest.FinshPushClassTest.pushClassTest()'><b>pushClassTest</b><br>Test class: iosTest.FinshPushClassTest<br>Test method: 登陆成功<br>Parameters: 爱学派FF, 1111, 10.1<br/>
+<a href="#Output-201719260" onClick='toggleBox("Output-201719260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-201719260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201719260">
+Reporter:2017-07-24 16:32:25===>This is finishPushClassTest log<br/>
+</div>
+</td>
+<td></td>
+<td>151</td>
+<td>iosTest.FinshPushClassTest@57fffcd7</td></tr>
+<tr>
+<td title='iosTest.PushPaperTest.pushClassTest()'><b>pushClassTest</b><br>Test class: iosTest.PushPaperTest<br>Test method: 登陆成功<br>Parameters: 爱学派FF, 1111, 10.1<br/>
+<a href="#Output-159290353" onClick='toggleBox("Output-159290353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159290353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159290353">
+Reporter:2017-07-24 16:35:29===>This is pushPaperTest log<br/>
+</div>
+</td>
+<td></td>
+<td>85</td>
+<td>iosTest.PushPaperTest@31ef45e3</td></tr>
+<tr>
+<td title='iosTest.SelectClassTest.selectClassSucessTest()'><b>selectClassSucessTest</b><br>Test class: iosTest.SelectClassTest<br>Test method: 登陆成功<br>Parameters: 爱学派FF, 1111, 10.1</td>
+<td></td>
+<td>51</td>
+<td>iosTest.SelectClassTest@3abbfa04</td></tr>
+</table><p>
+</body>
+</html>

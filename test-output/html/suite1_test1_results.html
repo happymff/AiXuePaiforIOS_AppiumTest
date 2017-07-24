@@ -12,553 +12,15 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 0.000s
+  Test duration: 628.507s
 </p>
 
-  <table class="resultsTable configTable">
-    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
-              <tr class="group">
-        <td colspan="3">iosTest.FinshPushClassTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  setUp
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 25 milliseconds<br/>
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
-System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;<br/>
-Driver info: driver.version: IOSDriver</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br />
-              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
-              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
-              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
-              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
-              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
-              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
-              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
-              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
-              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
-              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)<br />
-              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-              io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:47)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
-              io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:81)<br />
-              iosTest.FinshPushClassTest.setUp(FinshPushClassTest.java:34)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
-              org.testng.TestNG.run(TestNG.java:1048)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)<br />
-                </div>
-      </td>
-</tr>
-          <tr class="group">
-        <td colspan="3">iosTest.LoginTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  setUp
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 183 milliseconds<br/>
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
-System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;<br/>
-Driver info: driver.version: IOSDriver</b></a><br />
-    <div class="stackTrace" id="exception-1">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br />
-              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
-              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
-              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
-              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
-              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
-              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
-              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
-              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
-              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
-              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)<br />
-              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-              io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:47)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
-              io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:81)<br />
-              iosTest.LoginTest.setUp(LoginTest.java:33)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
-              org.testng.TestNG.run(TestNG.java:1048)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)<br />
-                </div>
-      </td>
-</tr>
-          <tr class="group">
-        <td colspan="3">iosTest.PushClassTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  setUp
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 37 milliseconds<br/>
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
-System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;<br/>
-Driver info: driver.version: IOSDriver</b></a><br />
-    <div class="stackTrace" id="exception-2">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br />
-              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
-              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
-              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
-              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
-              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
-              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
-              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
-              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
-              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
-              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)<br />
-              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-              io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:47)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
-              io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:81)<br />
-              iosTest.PushClassTest.setUp(PushClassTest.java:35)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
-              org.testng.TestNG.run(TestNG.java:1048)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)<br />
-                </div>
-      </td>
-</tr>
-          <tr class="group">
-        <td colspan="3">iosTest.PushPaperTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  setUp
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 32 milliseconds<br/>
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
-System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;<br/>
-Driver info: driver.version: IOSDriver</b></a><br />
-    <div class="stackTrace" id="exception-3">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br />
-              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
-              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
-              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
-              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
-              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
-              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
-              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
-              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
-              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
-              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)<br />
-              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-              io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:47)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
-              io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:81)<br />
-              iosTest.PushPaperTest.setUp(PushPaperTest.java:33)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
-              org.testng.TestNG.run(TestNG.java:1048)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)<br />
-                </div>
-      </td>
-</tr>
-          <tr class="group">
-        <td colspan="3">iosTest.SelectClassTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  setUp
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The &apos;noReset&apos; and &apos;fullReset&apos; capabilities are mutually exclusive and should not both be set to true. You probably meant to just use &apos;fullReset&apos; on its own (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 25 milliseconds<br/>
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
-System info: host: &apos;MengfeifeideMac-Mini.local&apos;, ip: &apos;10.20.30.108&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.3&apos;, java.version: &apos;1.8.0_121&apos;<br/>
-Driver info: driver.version: IOSDriver</b></a><br />
-    <div class="stackTrace" id="exception-4">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)<br />
-              org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)<br />
-              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
-              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
-              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
-              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
-              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
-              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
-              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
-              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
-              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)<br />
-              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)<br />
-              io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)<br />
-              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-              io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)<br />
-              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:47)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
-              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
-              io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:81)<br />
-              iosTest.SelectClassTest.setUp(SelectClassTest.java:32)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
-              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
-              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)<br />
-              org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
-              org.testng.TestRunner.run(TestRunner.java:624)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
-              org.testng.TestNG.run(TestNG.java:1048)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)<br />
-                </div>
-      </td>
-</tr>
-    
-          <tr><td colspan="3">&nbsp;</td></tr>
-      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
-                    <tr>
-          <td colspan="3" class="group">iosTest.FinshPushClassTest</td>
-        </tr>
-                
-<tr>
-  <td class="method">
-                  tearDown
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                               
-    
-        
-
-      </td>
-</tr>
-              <tr>
-          <td colspan="3" class="group">iosTest.LoginTest</td>
-        </tr>
-                
-<tr>
-  <td class="method">
-                  tearDown
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                               
-    
-        
-
-      </td>
-</tr>
-              <tr>
-          <td colspan="3" class="group">iosTest.PushClassTest</td>
-        </tr>
-                
-<tr>
-  <td class="method">
-                  tearDown
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                               
-    
-        
-
-      </td>
-</tr>
-              <tr>
-          <td colspan="3" class="group">iosTest.PushPaperTest</td>
-        </tr>
-                
-<tr>
-  <td class="method">
-                  tearDown
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                               
-    
-        
-
-      </td>
-</tr>
-              <tr>
-          <td colspan="3" class="group">iosTest.SelectClassTest</td>
-        </tr>
-                
-<tr>
-  <td class="method">
-                  tearDown
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                               
-    
-        
-
-      </td>
-</tr>
-            </table>
 
 
 
-  <table class="resultsTable" width="100%">
-    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
         <td colspan="3" class="group">iosTest.FinshPushClassTest</td>
       </tr>
@@ -568,13 +30,16 @@ Driver info: driver.version: IOSDriver</b></a><br />
                   <span class="description" title="登陆成功">pushClassTest</span>
       </td>
   <td class="duration">
-    0.000s
+    130.801s
   </td>
   <td class="result">
-                               
+        
           <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
-        
+            <div class="testOutput">
+                        Reporter:2017-07-24 15:56:45===&gt;This is finishPushClassTest log<br />
+                  </div>
+    
 
       </td>
 </tr>
@@ -587,13 +52,16 @@ Driver info: driver.version: IOSDriver</b></a><br />
                   <span class="description" title="登陆成功">loginSucessTest</span>
       </td>
   <td class="duration">
-    0.000s
+    41.590s
   </td>
   <td class="result">
-                               
+        
           <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
-        
+            <div class="testOutput">
+                        Reporter:2017-07-24 15:51:28===&gt;This is log message.<br />
+                  </div>
+    
 
       </td>
 </tr>
@@ -606,13 +74,16 @@ Driver info: driver.version: IOSDriver</b></a><br />
                   <span class="description" title="登陆成功">pushClassTest</span>
       </td>
   <td class="duration">
-    0.000s
+    109.670s
   </td>
   <td class="result">
-                               
+        
           <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
-        
+            <div class="testOutput">
+                        Reporter:2017-07-24 15:52:46===&gt;This is pushClassTest log<br />
+                  </div>
+    
 
       </td>
 </tr>
@@ -625,13 +96,16 @@ Driver info: driver.version: IOSDriver</b></a><br />
                   <span class="description" title="登陆成功">pushClassTest</span>
       </td>
   <td class="duration">
-    0.000s
+    109.937s
   </td>
   <td class="result">
-                               
+        
           <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
-        
+            <div class="testOutput">
+                        Reporter:2017-07-24 15:59:29===&gt;This is pushPaperTest log<br />
+                  </div>
+    
 
       </td>
 </tr>
@@ -644,10 +118,10 @@ Driver info: driver.version: IOSDriver</b></a><br />
                   <span class="description" title="登陆成功">selectClassSucessTest</span>
       </td>
   <td class="duration">
-    0.000s
+    54.135s
   </td>
   <td class="result">
-                               
+        
           <i>Method arguments: </i><span class="arguments">"爱学派FF", "1111", "10.1"</span><br />
     
         
@@ -655,7 +129,6 @@ Driver info: driver.version: IOSDriver</b></a><br />
       </td>
 </tr>
       </table>
-
   
 </body>
 </html>

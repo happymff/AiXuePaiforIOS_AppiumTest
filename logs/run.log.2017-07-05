@@ -1,0 +1,14 @@
+2017-07-05 16:47:32,380INFO main[iosTest.PushPaperTest] log(line:38)This is pushClassTest log
+2017-07-05 16:56:37,945INFO main[iosTest.PushPaperTest] log(line:38)This is pushPaperTest log
+2017-07-05 16:59:53,576INFO main[iosTest.LoginTest] log(line:38)This is log message.
+2017-07-05 17:01:10,754INFO main[iosTest.LoginTest] log(line:38)This is pushClassTest log
+2017-07-05 17:04:58,198INFO main[iosTest.LoginTest] log(line:38)This is finishPushClassTest log
+2017-07-05 17:08:04,245INFO main[iosTest.LoginTest] log(line:38)This is pushPaperTest log
+2017-07-05 17:16:17,193INFO main[iosTest.LoginTest] log(line:38)This is log message.
+2017-07-05 17:17:33,785INFO main[iosTest.LoginTest] log(line:38)This is pushClassTest log
+2017-07-05 17:21:37,904INFO main[iosTest.LoginTest] log(line:38)This is finishPushClassTest log
+2017-07-05 17:24:49,381INFO main[iosTest.LoginTest] log(line:38)This is pushPaperTest log
+2017-07-05 17:27:31,777INFO main[iosTest.LoginTest] log(line:38)This is log message.
+2017-07-05 17:28:46,300INFO main[iosTest.LoginTest] log(line:38)This is pushClassTest log
+2017-07-05 17:32:00,650INFO main[iosTest.LoginTest] log(line:38)This is finishPushClassTest log
+2017-07-05 17:36:01,221INFO main[iosTest.LoginTest] log(line:38)This is log message.

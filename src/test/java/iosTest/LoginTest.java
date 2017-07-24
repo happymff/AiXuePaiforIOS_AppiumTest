@@ -1,5 +1,7 @@
 package iosTest;
 
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import method.Login;
 import method.ScrollPages;
@@ -26,9 +28,9 @@ public class LoginTest {
     StartAppiumServer startAppiumServer;
     @BeforeMethod
     public void setUp() throws Exception {
-        startAppiumServer= new StartAppiumServer();
-        startAppiumServer.startAppium();
-        Thread.sleep(2000);
+//        startAppiumServer= new StartAppiumServer();
+//        startAppiumServer.startAppium();
+//        Thread.sleep(2000);
         is = new InitSetup();
         driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), is.InitSetUpCFG(new DesiredCapabilities()));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
