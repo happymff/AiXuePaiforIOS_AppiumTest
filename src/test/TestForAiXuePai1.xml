@@ -1,19 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" parallel="false">
+<suite name="TestForNewAppium" parallel="false">
     <listeners>
-        <listener class-name="method.DotTestListener"></listener>
-        <listener class-name="util.NewReport1"></listener>
+        <!--生成测试失败时的截图
+        <listener class-name="method.DotTestListener"></listener> -->
+        <!--将测试结果存入数据库-->
+        <listener class-name="util.AddTestResultToMySQL"></listener>
+        <!--生成美观的Report  -->
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--注释  注释  -->
     </listeners>
     <test name="Test">
         <classes>
-            <parameters>
-                <parameter name="username" value="爱学派D"/>
-                <parameter name="pwd" value="a11111"/>
-            </parameters>
-
-            <class name="iosTest.LoginTest1"/>
-
+            <!--注释 -->
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
+            <class name="iosTest.TeacherSendWhiteBoard"/>
         </classes>
     </test>
 </suite>

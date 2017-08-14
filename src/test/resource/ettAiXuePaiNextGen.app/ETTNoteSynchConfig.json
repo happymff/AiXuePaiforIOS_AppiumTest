@@ -1,0 +1,14 @@
+{
+  "modelData": {
+    "EDBrushColorStr":
+      {
+        "default":["red","gray","blue","green"],
+      },
+      "EDBrushColor":
+      {
+        "default":[],
+      },
+    "EDBrushSize": 3,
+    "EDEraserSize":30,
+  }
+}

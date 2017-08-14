@@ -1,5 +1,1 @@
-"iosTest.LoginTest","loginSucessTest","2017-07-24 15:51:28","41590毫秒","SUCCESS"
-"iosTest.PushClassTest","pushClassTest","2017-07-24 15:52:46","109670毫秒","SUCCESS"
-"iosTest.SelectClassTest","selectClassSucessTest","2017-07-24 15:55:14","54135毫秒","SUCCESS"
-"iosTest.FinshPushClassTest","pushClassTest","2017-07-24 15:56:45","130801毫秒","SUCCESS"
-"iosTest.PushPaperTest","pushClassTest","2017-07-24 15:59:29","109937毫秒","SUCCESS"
+"iosTest.TeacherSendWhiteBoard","pushTest","2017-08-14 18:00:13","71447毫秒","SUCCESS"
