@@ -14,6 +14,8 @@ public class PushPaper {
     MyCoursePage myCoursePage;
     PaperForCourseOneListPage paper;
     CoursePaperDetailPage paperDetailPage;
+    QuestionPushPage questionPushPage;
+    PapePushAfterFinshAnswerPage papePushAfterFinshAnswerPage;
 
     //推送试卷
     public void pushPaperOne(IOSDriver driver) throws InterruptedException {
@@ -34,14 +36,18 @@ public class PushPaper {
         try {
             paperDetailPage = new CoursePaperDetailPage(driver);
             paperDetailPage.pushPaper.click();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 
     public void finishPushPaperOne(IOSDriver driver) throws InterruptedException {
-
+        questionPushPage = new QuestionPushPage(driver);
+        questionPushPage.finishAnswer.click();
+        Thread.sleep(10000);
+        papePushAfterFinshAnswerPage = new PapePushAfterFinshAnswerPage(driver);
+        papePushAfterFinshAnswerPage.finishPush.click();
+        paperDetailPage.back.click();
+        paper.back.click();
     }
 }

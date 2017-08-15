@@ -2,59 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c719dc6-7ca0-49e8-9511-25b75582e0f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/bg-teacher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/brush_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/brush_default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/brush_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/brush_pressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/course_no_testpaper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/eraser_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/eraser_default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/eraser_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/eraser_pressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/hands_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/hands_default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/hands_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/hands_pressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/noteBrushAttri.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/paint_particle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/sidebar@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/snapShotDefault@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/snapShotPressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/trash_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/trash_default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/trash_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/trash_pressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/点击@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/默认@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/run.log.2017-07-24" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/iosTest/TeacherSendWhiteBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/method/PushWhiteBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/page/teacherpage/WhiteBoardPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ETTNoteSynchConfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/point.fsh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/point.vsh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-output/xml/iosTest.TeacherSendWhiteBoard_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Assets.car" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Assets.car" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Info.plist" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-700-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-700-Landscape@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/LaunchImage-Landscape@2x~ipad.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ettAiXuePaiNextGen" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/ettAiXuePaiNextGen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/run.log.2017-08-14" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/PushPaperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/PushPaperTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/method/PushPaper.class" afterPath="$PROJECT_DIR$/target/test-classes/method/PushPaper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/run.log" afterPath="$PROJECT_DIR$/logs/run.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestForAiXuePai1.xml" afterPath="$PROJECT_DIR$/src/test/TestForAiXuePai1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/_CodeSignature/CodeResources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/output.html" afterPath="$PROJECT_DIR$/test-output/html/output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/overview.html" afterPath="$PROJECT_DIR$/test-output/html/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/test.txt" afterPath="$PROJECT_DIR$/test-output/test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java" afterPath="$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java" afterPath="$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/method/PushPaper.java" afterPath="$PROJECT_DIR$/src/test/java/method/PushPaper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,101 +28,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeacherSendWhiteBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherSendWhiteBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PushWhiteBoardTimes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PushWhiteBoardTimes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/run.log">
+      <file leaf-file-name="PushPaperTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="729">
+              <caret line="64" column="77" lean-forward="false" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataProvid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/DataProvid.java">
+      <file leaf-file-name="TeacherLoginTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="-425">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/log4j.properties">
+      <file leaf-file-name="PushPaper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/method/PushPaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/NavigationPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.log.2017-05-25" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/run.log.2017-05-25">
+      <file leaf-file-name="MyCoursePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/MyCoursePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.log.2017-07-24" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/run.log.2017-07-24">
+      <file leaf-file-name="QuestionPushPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/QuestionPushPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestForAiXuePai.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePai.xml">
+      <file leaf-file-name="CoursePaperDetailPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/CoursePaperDetailPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhiteBoardPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/WhiteBoardPage.java">
+      <file leaf-file-name="PaperForCourseOneListPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PaperForCourseOneListPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestForAiXuePai1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePai1.xml">
+      <file leaf-file-name="PapeSumPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapeSumPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="57" lean-forward="false" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -233,12 +188,9 @@
         <option value="$PROJECT_DIR$/src/test/java/util/AutoLogger.java" />
         <option value="$PROJECT_DIR$/target/test-classes/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/PushClassTest.java" />
-        <option value="$PROJECT_DIR$/logs/run.log" />
         <option value="$PROJECT_DIR$/src/test/java/method/PushClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/FinshPushClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/method/ScrollPages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/method/PushPaper.java" />
         <option value="$PROJECT_DIR$/src/test/TestForAiXuePai.xml" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/SelectClassTest.java" />
         <option value="$PROJECT_DIR$/src/ios_config.properties" />
@@ -257,6 +209,9 @@
         <option value="$PROJECT_DIR$/src/test/TestForAiXuePai1.xml" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/TeacherSendWhiteBoard.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java" />
+        <option value="$PROJECT_DIR$/logs/run.log" />
+        <option value="$PROJECT_DIR$/src/test/java/method/PushPaper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java" />
       </list>
     </option>
   </component>
@@ -409,99 +364,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="teacherpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="method" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="iosTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataProvider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AiXuePaiForIOS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,7 +409,7 @@
       <recent name="$PROJECT_DIR$/target/test-classes" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PushWhiteBoardTimes">
+  <component name="RunManager" selected="TestNG.PushPaperTest">
     <configuration default="false" name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="appiumtest" />
@@ -1091,11 +954,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.PushWhiteBoardTimes" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai1.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TeacherSendWhiteBoard" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.PushPaperTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PushPaperTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PushWhiteBoardTimes" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai1.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TeacherSendWhiteBoard" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -1150,7 +1013,7 @@
       <workItem from="1500888765225" duration="1597000" />
       <workItem from="1500890851766" duration="585000" />
       <workItem from="1500951429742" duration="1437000" />
-      <workItem from="1502702242386" duration="2842000" />
+      <workItem from="1502702242386" duration="7672000" />
     </task>
     <task id="LOCAL-00001" summary="update ios test cases">
       <created>1490757900369</created>
@@ -1313,30 +1176,37 @@
       <option name="project" value="LOCAL" />
       <updated>1500885773021</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add WhiteBoardPush test">
+      <created>1502705316458</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1502705316458</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="PushPaperTest - 2017.08.15 at 14h 15m 07s.xml">
+      <configuration name="PushPaperTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PushPaperTest - 2017.08.15 at 14h 19m 04s.xml">
+      <configuration name="PushPaperTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PushPaperTest - 2017.08.15 at 14h 28m 21s.xml">
+      <configuration name="PushPaperTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PushWhiteBoardTimes - 2017.08.14 at 18h 21m 14s.xml">
+      <configuration name="PushWhiteBoardTimes" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PushWhiteBoardTimes - 2017.08.15 at 11h 35m 00s.xml">
+      <configuration name="PushWhiteBoardTimes" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="TeacherSendWhiteBoard - 2017.08.14 at 17h 52m 12s.xml">
       <configuration name="TeacherSendWhiteBoard" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai1_xml - 2017.08.14 at 18h 02m 41s.xml">
       <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai1.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.06 at 11h 37m 28s.xml">
-      <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.24 at 14h 56m 17s.xml">
-      <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.24 at 14h 57m 19s.xml">
-      <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.24 at 15h 02m 18s.xml">
-      <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.24 at 15h 09m 43s.xml">
-      <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_mff_Desktop_workspace_AiXuePaiForIOS_src_test_TestForAiXuePai_xml - 2017.07.24 at 15h 17m 51s.xml">
       <configuration name="/Users/mff/Desktop/workspace/AiXuePaiForIOS/src/test/TestForAiXuePai.xml" configurationId="TestNG" />
@@ -1349,7 +1219,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220007000" />
+    <option name="totallyTimeSpent" value="224837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1361,7 +1231,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="978" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="978" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1380,7 +1250,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18953489" sideWeight="0.49254525" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26890308" sideWeight="0.48787448" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26890308" sideWeight="0.48787448" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1411,7 +1281,8 @@
     <MESSAGE value="update methods and add properties read method" />
     <MESSAGE value="delete some unuseless classes&#10;" />
     <MESSAGE value="add mvn test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mvn test" />
+    <MESSAGE value="add WhiteBoardPush test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add WhiteBoardPush test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1424,48 +1295,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/commonpage/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/method/SelectClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/method/ScrollPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/NavigationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapePushAfterFinshAnswerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PaperForCourseOneListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/ClassOnePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1498,6 +1327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="96" column="19" lean-forward="false" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,14 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/method/PushPaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/method/PushClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -1628,30 +1450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/CoursePaperDetailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapePushPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapeSumPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/SelectClassPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1668,34 +1466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/MyCoursePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resource/ettAiXuePaiNextGen.app/PkgInfo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="66" column="83" lean-forward="false" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -1705,7 +1479,7 @@
         <state relative-caret-position="435">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1722,14 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherSendPaperAndTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="170" column="10" lean-forward="false" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="101" />
           <folding />
         </state>
       </provider>
@@ -1790,14 +1556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/run.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/WhiteBoardPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1814,10 +1572,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/SelectClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherSendPaperAndTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="170" column="10" lean-forward="false" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/run.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/run.log.2017-08-14">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapePushPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapePushAfterFinshAnswerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PaperForCourseOneListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/PapeSumPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/QuestionPushPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/CoursePaperDetailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/NavigationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/teacherpage/MyCoursePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/method/PushPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/PushWhiteBoardTimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        <state relative-caret-position="450">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/PushPaperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="64" column="77" lean-forward="false" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>

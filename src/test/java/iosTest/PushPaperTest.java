@@ -61,10 +61,18 @@ public class PushPaperTest {
         login.loginSucess(driverios, username, pwd);
         selectClass = new SelectClass();
         selectClass.selectClass(driverios);
-        pushPaper = new PushPaper();
-        pushPaper.pushPaperOne(driverios);
-        Thread.sleep(1000);
-        Assert.assertEquals("结束作答",driverios.findElement(By.id("结束作答")).getText());
+        for (int i =0; i <50; i++) {
+            System.out.println("-------------------"+(i+1)+"-----------------");
+            pushPaper = new PushPaper();
+            pushPaper.pushPaperOne(driverios);
+            Thread.sleep(5000);
+            Assert.assertEquals("结束作答", driverios.findElement(By.id("结束作答")).getText());
+            System.out.println("结束作答");
+            pushPaper.finishPushPaperOne(driverios);
+            Thread.sleep(5000);
+            //Assert.assertEquals("已公布答案", driverios.findElement(By.id("已公布答案")).getText());
+            System.out.println("已公布答案");
+        }
     }
 
     @AfterMethod

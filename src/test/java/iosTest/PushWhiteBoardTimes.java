@@ -65,7 +65,7 @@ public class PushWhiteBoardTimes {
             selectClass.selectClass(driverios);
             pushWhiteBoard = new PushWhiteBoard();
             pushWhiteBoard.pushWhiteBoard(driverios);
-            Thread.sleep(20000);
+            Thread.sleep(50000);
             Assert.assertEquals("结束推送", driverios.findElement(By.id("结束推送")).getText());
             driverios.quit();
         }
