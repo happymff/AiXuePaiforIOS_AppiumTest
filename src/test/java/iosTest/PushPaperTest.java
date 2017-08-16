@@ -61,7 +61,7 @@ public class PushPaperTest {
         login.loginSucess(driverios, username, pwd);
         selectClass = new SelectClass();
         selectClass.selectClass(driverios);
-        for (int i =0; i <50; i++) {
+        for (int i =0; i <500; i++) {
             System.out.println("-------------------"+(i+1)+"-----------------");
             pushPaper = new PushPaper();
             pushPaper.pushPaperOne(driverios);
